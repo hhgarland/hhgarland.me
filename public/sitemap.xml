@@ -2,60 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/2024-03-18-new-site/</loc>
-    <lastmod>2024-03-18T06:11:54-05:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-03-18T06:11:54-05:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-03-18T06:11:54-05:00</lastmod>
-  </url><url>
-    <loc>/tags/cube/</loc>
+    <loc>https://hhgarland.me/tags/cube/</loc>
     <lastmod>2024-01-04T20:34:59-05:00</lastmod>
   </url><url>
-    <loc>/posts/2024-01-04-cube-reconfiguration/</loc>
+    <loc>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</loc>
     <lastmod>2024-01-04T20:34:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/ios/</loc>
+    <loc>https://hhgarland.me/tags/ios/</loc>
     <lastmod>2024-01-04T20:34:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/sip/</loc>
+    <loc>https://hhgarland.me/</loc>
     <lastmod>2024-01-04T20:34:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://hhgarland.me/posts/</loc>
     <lastmod>2024-01-04T20:34:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/freepbx/</loc>
+    <loc>https://hhgarland.me/tags/sip/</loc>
+    <lastmod>2024-01-04T20:34:59-05:00</lastmod>
+  </url><url>
+    <loc>https://hhgarland.me/tags/</loc>
+    <lastmod>2024-01-04T20:34:59-05:00</lastmod>
+  </url><url>
+    <loc>https://hhgarland.me/tags/freepbx/</loc>
     <lastmod>2023-07-21T18:15:59-05:00</lastmod>
   </url><url>
-    <loc>/posts/2023-07-21-sip-profiles/</loc>
+    <loc>https://hhgarland.me/posts/2023-07-21-sip-profiles/</loc>
     <lastmod>2023-07-21T18:15:59-05:00</lastmod>
   </url><url>
-    <loc>/posts/2023-06-16-failed-type-6-encryption/</loc>
+    <loc>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</loc>
     <lastmod>2023-06-17T06:44:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/cuc/</loc>
+    <loc>https://hhgarland.me/tags/cuc/</loc>
     <lastmod>2023-05-28T09:49:28-05:00</lastmod>
   </url><url>
-    <loc>/tags/cucm/</loc>
+    <loc>https://hhgarland.me/tags/cucm/</loc>
     <lastmod>2023-05-28T09:49:28-05:00</lastmod>
   </url><url>
-    <loc>/posts/2023-05-28-handy-sql-queries/</loc>
+    <loc>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</loc>
     <lastmod>2023-05-28T09:49:28-05:00</lastmod>
   </url><url>
-    <loc>/tags/sql/</loc>
+    <loc>https://hhgarland.me/tags/sql/</loc>
     <lastmod>2023-05-28T09:49:28-05:00</lastmod>
   </url><url>
-    <loc>/tags/uccx/</loc>
+    <loc>https://hhgarland.me/tags/uccx/</loc>
     <lastmod>2023-05-28T09:49:28-05:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://hhgarland.me/about/</loc>
     <lastmod>2023-05-28T09:31:10-05:00</lastmod>
   </url><url>
-    <loc>/about/about/</loc>
+    <loc>https://hhgarland.me/about/about/</loc>
     <lastmod>2023-05-28T09:31:10-05:00</lastmod>
   </url><url>
-    <loc>/series/</loc>
+    <loc>https://hhgarland.me/series/</loc>
   </url>
 </urlset>

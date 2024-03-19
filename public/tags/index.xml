@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My technology blog</title>
-    <link>/tags/</link>
+    <link>https://hhgarland.me/tags/</link>
     <description>Recent content in Tags on My technology blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2024 20:34:59 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jan 2024 20:34:59 -0500</lastBuildDate><atom:link href="https://hhgarland.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cube</title>
-      <link>/tags/cube/</link>
+      <link>https://hhgarland.me/tags/cube/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
       
-      <guid>/tags/cube/</guid>
+      <guid>https://hhgarland.me/tags/cube/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ios</title>
-      <link>/tags/ios/</link>
+      <link>https://hhgarland.me/tags/ios/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
       
-      <guid>/tags/ios/</guid>
+      <guid>https://hhgarland.me/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sip</title>
-      <link>/tags/sip/</link>
+      <link>https://hhgarland.me/tags/sip/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
       
-      <guid>/tags/sip/</guid>
+      <guid>https://hhgarland.me/tags/sip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>freepbx</title>
-      <link>/tags/freepbx/</link>
+      <link>https://hhgarland.me/tags/freepbx/</link>
       <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
       
-      <guid>/tags/freepbx/</guid>
+      <guid>https://hhgarland.me/tags/freepbx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cuc</title>
-      <link>/tags/cuc/</link>
+      <link>https://hhgarland.me/tags/cuc/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
       
-      <guid>/tags/cuc/</guid>
+      <guid>https://hhgarland.me/tags/cuc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cucm</title>
-      <link>/tags/cucm/</link>
+      <link>https://hhgarland.me/tags/cucm/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
       
-      <guid>/tags/cucm/</guid>
+      <guid>https://hhgarland.me/tags/cucm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql</title>
-      <link>/tags/sql/</link>
+      <link>https://hhgarland.me/tags/sql/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
       
-      <guid>/tags/sql/</guid>
+      <guid>https://hhgarland.me/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uccx</title>
-      <link>/tags/uccx/</link>
+      <link>https://hhgarland.me/tags/uccx/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
       
-      <guid>/tags/uccx/</guid>
+      <guid>https://hhgarland.me/tags/uccx/</guid>
       <description></description>
     </item>
     
