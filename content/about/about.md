@@ -21,10 +21,10 @@ Platforms and equipment I have experience working with:
   - Collaboration appliances: Call Manager, Unity Connection, Contact Center Express, IM & Presence
   - ISRs/Routers/Gateways: 4000 series (CUBE), VG350, VG310, VG224
   - Switches: 1000, 2900, 9300, 9500 series
+  - Webex
 - Asterisk, FreePBX
 - FreeSwitch, FusionPBX
 
 Currently learning:
 
-- Microsoft Teams
-- Cisco WebEx (particularly WebEx Calling)
+- Microsoft Azure, Teams
