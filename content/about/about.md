@@ -29,3 +29,4 @@ Platforms and equipment I have experience working with:
 Currently learning:
 
 - Microsoft Azure, Teams
+- Opensips, Kamailio
