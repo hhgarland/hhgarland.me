@@ -1,0 +1,1 @@
+This repository contains the source code for my DigitalOcean App Platform used to publish my Hugo [site](https://hhgarland.me). I am using the [Poison](https://themes.gohugo.io/themes/poison/) Hugo theme.
