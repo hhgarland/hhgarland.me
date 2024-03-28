@@ -224,6 +224,8 @@
                 
                         
                 
+                        
+                
             
         
         
@@ -256,11 +258,11 @@
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://hhgarland.me/posts/2023-07-21-sip-profiles/">Using SIP Profiles on Cisco VoIP Gateways</a>
+                                <a href="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/">Packet Capture on Cisco ISR</a>
                             </li>
                         
                             <li class="bullet">
-                                <a href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/">&#39;Failed type 6 encryption on password&#39;</a>
+                                <a href="https://hhgarland.me/posts/2023-07-21-sip-profiles/">Using SIP Profiles on Cisco VoIP Gateways</a>
                             </li>
                         
                     
@@ -271,6 +273,8 @@
                 
             
                 
+                
+                        
                 
                         
                 
@@ -495,6 +499,63 @@ Troubleshooting steps:
         
         <div class="read-more-link">
             <a href="/posts/2024-01-04-cube-reconfiguration/">Read More…</a>
+        </div>
+        
+        
+    </article>
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
+    <a href="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/">Packet Capture on Cisco ISR</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2023-07-26T09:02:59-0500" class="post-date">
+        July 26, 2023
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>1 min read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-cube">
+        <a href="https://hhgarland.me/tags/cube">cube</a>
+      </li>
+      
+      <li class="tag-isr">
+        <a href="https://hhgarland.me/tags/isr">isr</a>
+      </li>
+      
+      <li class="tag-ios">
+        <a href="https://hhgarland.me/tags/ios">ios</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        Determine the interface where you want to capture traffic:  show ip interface brief Stage the capture filters:  monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture:  monitor capture CAP1 start Reproduce the issue. Stop the capture:  monitor capture CAP1 stop Export the capture to a TFTP server:  monitor capture CAP1 export tftp://&lt;tftp IP&gt;/CAP1.pcap Disable the monitor capture:  no monitor capture CAP1 Verify the capture:  router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.
+        
+        <div class="read-more-link">
+            <a href="/posts/2023-07-26-isr-packet-capture/">Read More…</a>
         </div>
         
         

@@ -49,38 +49,35 @@
 
 
 
-  
-  
-  
-
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">My technology blog - &#39;Failed type 6 encryption on password&#39;</title>
-<meta property="og:title" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
-<meta name="twitter:title" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
-<meta itemprop="name" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
-<meta name="application-name" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
+<title itemprop="name">My technology blog</title>
+<meta property="og:title" content=My&#32;technology&#32;blog />
+<meta name="twitter:title" content=My&#32;technology&#32;blog />
+<meta itemprop="name" content=My&#32;technology&#32;blog />
+<meta name="application-name" content=My&#32;technology&#32;blog />
 <meta property="og:site_name" content="My technology blog" />
 
 
-<meta name="description" content="Changing an encrypted SIP binding password" />
-<meta itemprop="description" content="Changing an encrypted SIP binding password" />
-<meta property="og:description" content="Changing an encrypted SIP binding password" />
-<meta name="twitter:description" content="Changing an encrypted SIP binding password" />
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
 
 
-<base href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
-<link rel="canonical" href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" itemprop="url" />
-<meta name="url" content="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
-<meta name="twitter:url" content="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
-<meta property="og:url" content="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
+<base href="https://hhgarland.me/tags/isr/" />
+<link rel="canonical" href="https://hhgarland.me/tags/isr/" itemprop="url" />
+<meta name="url" content="https://hhgarland.me/tags/isr/" />
+<meta name="twitter:url" content="https://hhgarland.me/tags/isr/" />
+<meta property="og:url" content="https://hhgarland.me/tags/isr/" />
 
 
-<meta property="og:updated_time" content=17006-17-06T644:59:23-0500 />
+<meta property="og:updated_time" content=26007-26-09T72:59:23-0500 />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://hhgarland.me/sitemap.xml' />
+<link href="https://hhgarland.me/tags/isr/index.xml" rel="alternate" type="application/rss+xml" title="My technology blog" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -94,20 +91,6 @@
 <meta name="apple-mobile-web-app-title" content="My technology blog" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-
-
-
-
-
-
-
-<meta property="og:type" content="article" />
-<meta property="article:publisher" content="" />
-<meta property="og:article:published_time" content=17006-17-06T644:59:23-0500 />
-<meta property="article:published_time" content=17006-17-06T644:59:23-0500 />
-
-
 
 
 
@@ -370,99 +353,25 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <div class="post">
-  <div class="info">
-  <h1 class="post-title">
-    <a href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/">&#39;Failed type 6 encryption on password&#39;</a>
-  </h1>
-
-  <div class="headline">
-    <div>
-      
-      <time datetime=" 2023-06-17T06:44:59-0500" class="post-date">
-        June 17, 2023
-      </time>
-      
-      <span> - </span>
-      <span class="reading-time">
-        
-          
-        
-
-        <span>1 min read</span>
-      </span>
-    </div>
-
+                <h1 class="title">isr</h1>
+<ul class="entries">
     
-    <ul class="tags">
-      
-      <li class="tag-cube">
-        <a href="https://hhgarland.me/tags/cube">cube</a>
-      </li>
-      
-      <li class="tag-sip">
-        <a href="https://hhgarland.me/tags/sip">sip</a>
-      </li>
-      
-      <li class="tag-ios">
-        <a href="https://hhgarland.me/tags/ios">ios</a>
-      </li>
-      
-    </ul>
-    
-  </div>
-
-  
-  
-
-  
-</div>
-
-  <p>I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):</p>
-<pre tabindex="0"><code>site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com
-Failed type 6 encryption on password
-</code></pre><p>I had never seen the error <em>Failed type 6 encryption on password</em> before and I struggled somewhat in understanding how to change this. I ran into <a href="https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495" target="_blank">this</a> article and it was subsequently the same solution I was given by Cisco TAC:</p>
-<pre tabindex="0"><code>configure terminal
-  key config-key password-encrypt &lt;MASTER PASSWORD&gt;
-  password encryption aes
-end
-</code></pre><p>After entering the commands above, I was able to change the SIP bindings:</p>
-<pre tabindex="0"><code>site-1-cube(config)#no sip-ua
-site-1-cube(config-sip-ua)#sip-ua
-site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2--[%)_Ie realm nyc.provider.com
-site-1-cube(config-sip-ua)#authentication username 3334445555 password 0 J2i--[%)_Ie realm nyc.provider.com
-</code></pre><p>Then I checked the registration status with:</p>
-<pre tabindex="0"><code>site-1-cube#show sip-ua register status
-</code></pre>
-  
-  <hr>
-<div class="footer">
-    
-	    
-            <a class="previous-post" href="https://hhgarland.me/posts/2023-05-28-handy-sql-queries/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Handy SQL Queries for Cisco UC</a>
+        <h3 style="text-align: center;">2023</h3>
         
-	    
-            <div class="next-post">
-                <a href="https://hhgarland.me/posts/2023-07-21-sip-profiles/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Using SIP Profiles on Cisco VoIP Gateways</a>
-            </div>
+            <li>
+                <span class="title">
+                    <a href="/posts/2023-07-26-isr-packet-capture/">Packet Capture on Cisco ISR</a>
+                </span>
+                <span class="published">
+                    <time class="pull-right post-list">July 26, 2023</time>
+                </span>
+            </li>
         
     
-</div>
+</ul>
 
-  
-</div>
             </main>
             
-  
-    <div class="article-toc ">
-    <div class="toc-wrapper">
-      <h4 id="contents"></h4>
-      <nav id="TableOfContents"></nav>
-    </div>
-</div>
-
-  
-
         </div>
     </body>
 </html>

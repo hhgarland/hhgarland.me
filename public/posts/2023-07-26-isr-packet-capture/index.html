@@ -56,28 +56,28 @@
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">My technology blog - &#39;Failed type 6 encryption on password&#39;</title>
-<meta property="og:title" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
-<meta name="twitter:title" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
-<meta itemprop="name" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
-<meta name="application-name" content=My&#32;technology&#32;blog&#32;-&#32;&#39;Failed&#32;type&#32;6&#32;encryption&#32;on&#32;password&#39; />
+<title itemprop="name">My technology blog - Packet Capture on Cisco ISR</title>
+<meta property="og:title" content=My&#32;technology&#32;blog&#32;-&#32;Packet&#32;Capture&#32;on&#32;Cisco&#32;ISR />
+<meta name="twitter:title" content=My&#32;technology&#32;blog&#32;-&#32;Packet&#32;Capture&#32;on&#32;Cisco&#32;ISR />
+<meta itemprop="name" content=My&#32;technology&#32;blog&#32;-&#32;Packet&#32;Capture&#32;on&#32;Cisco&#32;ISR />
+<meta name="application-name" content=My&#32;technology&#32;blog&#32;-&#32;Packet&#32;Capture&#32;on&#32;Cisco&#32;ISR />
 <meta property="og:site_name" content="My technology blog" />
 
 
-<meta name="description" content="Changing an encrypted SIP binding password" />
-<meta itemprop="description" content="Changing an encrypted SIP binding password" />
-<meta property="og:description" content="Changing an encrypted SIP binding password" />
-<meta name="twitter:description" content="Changing an encrypted SIP binding password" />
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
 
 
-<base href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
-<link rel="canonical" href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" itemprop="url" />
-<meta name="url" content="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
-<meta name="twitter:url" content="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
-<meta property="og:url" content="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/" />
+<base href="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/" />
+<link rel="canonical" href="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/" itemprop="url" />
+<meta name="url" content="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/" />
+<meta name="twitter:url" content="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/" />
+<meta property="og:url" content="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/" />
 
 
-<meta property="og:updated_time" content=17006-17-06T644:59:23-0500 />
+<meta property="og:updated_time" content=26007-26-09T72:59:23-0500 />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://hhgarland.me/sitemap.xml' />
@@ -104,8 +104,8 @@
 
 <meta property="og:type" content="article" />
 <meta property="article:publisher" content="" />
-<meta property="og:article:published_time" content=17006-17-06T644:59:23-0500 />
-<meta property="article:published_time" content=17006-17-06T644:59:23-0500 />
+<meta property="og:article:published_time" content=26007-26-09T72:59:23-0500 />
+<meta property="article:published_time" content=26007-26-09T72:59:23-0500 />
 
 
 
@@ -373,14 +373,14 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="post">
   <div class="info">
   <h1 class="post-title">
-    <a href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/">&#39;Failed type 6 encryption on password&#39;</a>
+    <a href="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/">Packet Capture on Cisco ISR</a>
   </h1>
 
   <div class="headline">
     <div>
       
-      <time datetime=" 2023-06-17T06:44:59-0500" class="post-date">
-        June 17, 2023
+      <time datetime=" 2023-07-26T09:02:59-0500" class="post-date">
+        July 26, 2023
       </time>
       
       <span> - </span>
@@ -400,8 +400,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
         <a href="https://hhgarland.me/tags/cube">cube</a>
       </li>
       
-      <li class="tag-sip">
-        <a href="https://hhgarland.me/tags/sip">sip</a>
+      <li class="tag-isr">
+        <a href="https://hhgarland.me/tags/isr">isr</a>
       </li>
       
       <li class="tag-ios">
@@ -418,32 +418,63 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   
 </div>
 
-  <p>I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):</p>
-<pre tabindex="0"><code>site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com
-Failed type 6 encryption on password
-</code></pre><p>I had never seen the error <em>Failed type 6 encryption on password</em> before and I struggled somewhat in understanding how to change this. I ran into <a href="https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495" target="_blank">this</a> article and it was subsequently the same solution I was given by Cisco TAC:</p>
-<pre tabindex="0"><code>configure terminal
-  key config-key password-encrypt &lt;MASTER PASSWORD&gt;
-  password encryption aes
-end
-</code></pre><p>After entering the commands above, I was able to change the SIP bindings:</p>
-<pre tabindex="0"><code>site-1-cube(config)#no sip-ua
-site-1-cube(config-sip-ua)#sip-ua
-site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2--[%)_Ie realm nyc.provider.com
-site-1-cube(config-sip-ua)#authentication username 3334445555 password 0 J2i--[%)_Ie realm nyc.provider.com
-</code></pre><p>Then I checked the registration status with:</p>
-<pre tabindex="0"><code>site-1-cube#show sip-ua register status
+  <ol>
+<li>Determine the interface where you want to capture traffic:</li>
+</ol>
+<pre tabindex="0"><code>show ip interface brief
+</code></pre><ol start="2">
+<li>Stage the capture filters:</li>
+</ol>
+<pre tabindex="0"><code>monitor capture CAP1 interface gig0/0/0 both
+monitor capture CAP1 match ipv4 any any
+</code></pre><ol start="3">
+<li>Start the capture:</li>
+</ol>
+<pre tabindex="0"><code>monitor capture CAP1 start
+</code></pre><ol start="4">
+<li>Reproduce the issue.</li>
+<li>Stop the capture:</li>
+</ol>
+<pre tabindex="0"><code>monitor capture CAP1 stop
+</code></pre><ol start="6">
+<li>Export the capture to a TFTP server:</li>
+</ol>
+<pre tabindex="0"><code>monitor capture CAP1 export tftp://&lt;tftp IP&gt;/CAP1.pcap
+</code></pre><ol start="7">
+<li>Disable the monitor capture:</li>
+</ol>
+<pre tabindex="0"><code>no monitor capture CAP1
+</code></pre><ol start="8">
+<li>Verify the capture:</li>
+</ol>
+<pre tabindex="0"><code>router1#sh monitor capture CAP1 buffer brief
+ ----------------------------------------------------------------------------
+ #   size   timestamp     source             destination      dscp    protocol
+ ----------------------------------------------------------------------------
+   0  118    0.000000   10.113.20.7      -&gt;  10.114.1.10      0  BE   UDP
+   1  543    0.261980   10.113.20.7      -&gt;  162.223.86.235   26 AF31 UDP
+   2  520    0.310989   162.223.86.235   -&gt;  10.113.20.7      24 CS3  UDP
+   3  792    6.020003   162.223.86.235   -&gt;  10.113.20.7      24 CS3  UDP
+   4 1128    6.022994   10.113.20.7      -&gt;  162.223.86.235   26 AF31 UDP
+   5  118   10.131997   10.148.202.2     -&gt;  10.113.20.7      0  BE   TCP
+   6  118   10.133996   10.113.20.7      -&gt;  10.148.202.2     48 CS6  TCP
+   7   54   10.182989   10.148.202.2     -&gt;  10.113.20.7      0  BE   TCP
+   8  118   10.211995   10.148.202.2     -&gt;  10.113.20.7      0  BE   TCP
+   9  118   10.214985   10.113.20.7      -&gt;  10.148.202.2     48 CS6  TCP
+  10   54   10.261980   10.148.202.2     -&gt;  10.113.20.7      0  BE   TCP
+  11  118   10.342029   10.148.202.2     -&gt;  10.113.20.7      0  BE   TCP
+  &lt;cont'd...&gt;
 </code></pre>
   
   <hr>
 <div class="footer">
     
 	    
-            <a class="previous-post" href="https://hhgarland.me/posts/2023-05-28-handy-sql-queries/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Handy SQL Queries for Cisco UC</a>
+            <a class="previous-post" href="https://hhgarland.me/posts/2023-07-21-sip-profiles/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Using SIP Profiles on Cisco VoIP Gateways</a>
         
 	    
             <div class="next-post">
-                <a href="https://hhgarland.me/posts/2023-07-21-sip-profiles/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Using SIP Profiles on Cisco VoIP Gateways</a>
+                <a href="https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/?ref=footer"><span style="font-weight:bold;">Next »</span><br>CUBE Reconfiguration</a>
             </div>
         
     
