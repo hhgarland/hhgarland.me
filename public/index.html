@@ -74,7 +74,7 @@
 <meta property="og:url" content="https://hhgarland.me/" />
 
 
-<meta property="og:updated_time" content=18003-18-06T311:54:24-0500 />
+<meta property="og:updated_time" content=28003-28-05T337:05:24-0500 />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://hhgarland.me/sitemap.xml' />
@@ -244,6 +244,10 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://hhgarland.me/posts/2024-03-28-memory-leak/">Memory Leak in Directory Sync Code</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://hhgarland.me/posts/2024-03-18-new-site/">Moving to a new domain</a>
                             </li>
                         
@@ -257,10 +261,6 @@
                         
                             <li class="bullet">
                                 <a href="https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/">&#39;Failed type 6 encryption on password&#39;</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://hhgarland.me/posts/2023-05-28-handy-sql-queries/">Handy SQL Queries for Cisco UC</a>
                             </li>
                         
                     
@@ -353,6 +353,57 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="posts">
     
     
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
+    <a href="https://hhgarland.me/posts/2024-03-28-memory-leak/">Memory Leak in Directory Sync Code</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2024-03-28T05:37:05-0500" class="post-date">
+        March 28, 2024
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>1 min read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-cucm">
+        <a href="https://hhgarland.me/tags/cucm">cucm</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        When making a configuration change to a SIP trunk in CUCM, I was met with the following error: Update failed. Memory allocation failed during query processing.
+Troubleshooting steps:
+ From the CUCM publisher node issue the show status command to check the memory totals. Also check the service list using utils service list to verify if the A Cisco DB service is started. Restart the A Cisco DB service with utils service restart A Cisco DB.
+        
+        <div class="read-more-link">
+            <a href="/posts/2024-03-28-memory-leak/">Read More…</a>
+        </div>
+        
+        
+    </article>
     <article class="post">
         <div class="info">
   <h1 class="post-title">

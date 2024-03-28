@@ -6,7 +6,18 @@
     <description>Recent content in Posts on My technology blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2024 06:11:54 -0500</lastBuildDate><atom:link href="https://hhgarland.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate><atom:link href="https://hhgarland.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory Leak in Directory Sync Code</title>
+      <link>https://hhgarland.me/posts/2024-03-28-memory-leak/</link>
+      <pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
+      
+      <guid>https://hhgarland.me/posts/2024-03-28-memory-leak/</guid>
+      <description>When making a configuration change to a SIP trunk in CUCM, I was met with the following error: Update failed. Memory allocation failed during query processing.
+Troubleshooting steps:
+ From the CUCM publisher node issue the show status command to check the memory totals. Also check the service list using utils service list to verify if the A Cisco DB service is started. Restart the A Cisco DB service with utils service restart A Cisco DB.</description>
+    </item>
+    
     <item>
       <title>Moving to a new domain</title>
       <link>https://hhgarland.me/posts/2024-03-18-new-site/</link>
