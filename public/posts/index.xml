@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My technology blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My technology blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory Leak in Directory Sync Code</title>
+      <link>http://localhost:1313/posts/2024-03-28-memory-leak/</link>
+      <pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-03-28-memory-leak/</guid>
+      
+      <description>When making a configuration change to a SIP trunk in CUCM, I was met with the following error: Update failed. Memory allocation failed during query processing.
+Troubleshooting steps:
+From the CUCM publisher node issue the show status command to check the memory totals. Also check the service list using utils service list to verify if the A Cisco DB service is started. Restart the A Cisco DB service with utils service restart A Cisco DB.</description>
+      
+    </item>
+    
+    <item>
+      <title>Moving to a new domain</title>
+      <link>http://localhost:1313/posts/2024-03-18-new-site/</link>
+      <pubDate>Mon, 18 Mar 2024 06:11:54 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-03-18-new-site/</guid>
+      
+      <description>I&amp;rsquo;ve moved my site from Gitlab to a new domain.
+The code can be viewed here.</description>
+      
+    </item>
+    
+    <item>
+      <title>CUBE Reconfiguration</title>
+      <link>http://localhost:1313/posts/2024-01-04-cube-reconfiguration/</link>
+      <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-01-04-cube-reconfiguration/</guid>
+      
+      <description>I was inspired to simplify my CUBE configuration after reading this article on the Cisco Learning website. The voice service voip section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:
+SIP URI definitions E.164 pattern maps Dial peer groups Server groups Translation profiles Dial peers Defining the SIP URIs For the inbound WAN and LAN dial peers, I wanted to match on the incoming uri via headers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Packet Capture on Cisco ISR</title>
+      <link>http://localhost:1313/posts/2023-07-26-isr-packet-capture/</link>
+      <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2023-07-26-isr-packet-capture/</guid>
+      
+      <description>Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.</description>
+      
+    </item>
+    
+    <item>
+      <title>Using SIP Profiles on Cisco VoIP Gateways</title>
+      <link>http://localhost:1313/posts/2023-07-21-sip-profiles/</link>
+      <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2023-07-21-sip-profiles/</guid>
+      
+      <description>The problem I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.
+The call flow looks like this:
+1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN Issue with the SIP INVITE Upon further inspection I found that the initial INVITE was being rejected by the carrier:</description>
+      
+    </item>
+    
+    <item>
+      <title>&#39;Failed type 6 encryption on password&#39;</title>
+      <link>http://localhost:1313/posts/2023-06-16-failed-type-6-encryption/</link>
+      <pubDate>Sat, 17 Jun 2023 06:44:59 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2023-06-16-failed-type-6-encryption/</guid>
+      
+      <description>I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):
+site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com Failed type 6 encryption on password I had never seen the error Failed type 6 encryption on password before and I struggled somewhat in understanding how to change this. I ran into this article and it was subsequently the same solution I was given by Cisco TAC:</description>
+      
+    </item>
+    
+    <item>
+      <title>Handy SQL Queries for Cisco UC</title>
+      <link>http://localhost:1313/posts/2023-05-28-handy-sql-queries/</link>
+      <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2023-05-28-handy-sql-queries/</guid>
+      
+      <description>Here&amp;rsquo;s a growing list of handy SQL queries that I&amp;rsquo;ve found useful over the last few months.
+CUCM Gather phone information on a specific node:
+show risdb query phone Find a specific speed dial number. The device name, description, speed dial index, label, and number are listed:
+run sql select d.name, d.description, sd.speeddialindex, sd.label, sd.speeddialnumber from speeddial as sd inner join device as d on sd.fkdevice=d.pkid where speeddialnumber like &amp;#39;655%&amp;#39; View call forwarding status on all line appearances:</description>
+      
+    </item>
+    
+  </channel>
+</rss>

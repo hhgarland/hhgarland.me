@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on My technology blog</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on My technology blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 09:31:10 -0500</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Sun, 28 May 2023 09:31:10 -0500</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>Hello and welcome to my blog where I post about all things VoIP. This is somewhat of a knowledge base for my myself, but I hope others find this site useful. I can&amp;rsquo;t take much credit for the information here as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..
+A few other blogs I follow:
+NOC Thoughts
+Voice in Peace VIP
+Cisco Unified Communications and Collaboration
+Platforms and equipment I have experience working with:</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on My technology blog</title>
+    <link>http://localhost:1313/tags/sql/</link>
+    <description>Recent content in Sql on My technology blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 09:49:28 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Handy SQL Queries for Cisco UC</title>
+      <link>http://localhost:1313/posts/2023-05-28-handy-sql-queries/</link>
+      <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2023-05-28-handy-sql-queries/</guid>
+      
+      <description>Here&amp;rsquo;s a growing list of handy SQL queries that I&amp;rsquo;ve found useful over the last few months.
+CUCM Gather phone information on a specific node:
+show risdb query phone Find a specific speed dial number. The device name, description, speed dial index, label, and number are listed:
+run sql select d.name, d.description, sd.speeddialindex, sd.label, sd.speeddialnumber from speeddial as sd inner join device as d on sd.fkdevice=d.pkid where speeddialnumber like &amp;#39;655%&amp;#39; View call forwarding status on all line appearances:</description>
+      
+    </item>
+    
+  </channel>
+</rss>

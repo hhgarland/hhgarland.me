@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freepbx on My technology blog</title>
+    <link>http://localhost:1313/tags/freepbx/</link>
+    <description>Recent content in Freepbx on My technology blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jul 2023 18:15:59 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/freepbx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using SIP Profiles on Cisco VoIP Gateways</title>
+      <link>http://localhost:1313/posts/2023-07-21-sip-profiles/</link>
+      <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2023-07-21-sip-profiles/</guid>
+      
+      <description>The problem I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.
+The call flow looks like this:
+1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN Issue with the SIP INVITE Upon further inspection I found that the initial INVITE was being rejected by the carrier:</description>
+      
+    </item>
+    
+  </channel>
+</rss>
