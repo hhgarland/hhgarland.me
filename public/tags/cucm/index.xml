@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cucm on My technology blog</title>
-    <link>http://localhost:1313/tags/cucm/</link>
+    <link>https://hhgarland.me/tags/cucm/</link>
     <description>Recent content in Cucm on My technology blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/cucm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate><atom:link href="https://hhgarland.me/tags/cucm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Memory Leak in Directory Sync Code</title>
-      <link>http://localhost:1313/posts/2024-03-28-memory-leak/</link>
+      <link>https://hhgarland.me/posts/2024-03-28-memory-leak/</link>
       <pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2024-03-28-memory-leak/</guid>
+      <guid>https://hhgarland.me/posts/2024-03-28-memory-leak/</guid>
       
       <description>When making a configuration change to a SIP trunk in CUCM, I was met with the following error: Update failed. Memory allocation failed during query processing.
 Troubleshooting steps:
@@ -22,10 +22,10 @@ From the CUCM publisher node issue the show status command to check the memory t
     
     <item>
       <title>Handy SQL Queries for Cisco UC</title>
-      <link>http://localhost:1313/posts/2023-05-28-handy-sql-queries/</link>
+      <link>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2023-05-28-handy-sql-queries/</guid>
+      <guid>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</guid>
       
       <description>Here&amp;rsquo;s a growing list of handy SQL queries that I&amp;rsquo;ve found useful over the last few months.
 CUCM Gather phone information on a specific node:

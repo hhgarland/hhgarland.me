@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Isr on My technology blog</title>
-    <link>http://localhost:1313/tags/isr/</link>
+    <link>https://hhgarland.me/tags/isr/</link>
     <description>Recent content in Isr on My technology blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2023 09:02:59 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/isr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jul 2023 09:02:59 -0500</lastBuildDate><atom:link href="https://hhgarland.me/tags/isr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Packet Capture on Cisco ISR</title>
-      <link>http://localhost:1313/posts/2023-07-26-isr-packet-capture/</link>
+      <link>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</link>
       <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2023-07-26-isr-packet-capture/</guid>
+      <guid>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</guid>
       
       <description>Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.</description>
       
