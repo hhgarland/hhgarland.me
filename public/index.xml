@@ -6,7 +6,18 @@
     <description>Recent content on My technology blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate><atom:link href="https://hhgarland.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hhgarland.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uses</title>
+      <link>https://hhgarland.me/pages/uses/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hhgarland.me/pages/uses/</guid>
+      
+      <description>I have used Linux since early 2009 when I decided to build my own PC and have used it daily ever since. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with Sway and Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.</description>
+      
+    </item>
+    
     <item>
       <title>Memory Leak in Directory Sync Code</title>
       <link>https://hhgarland.me/posts/2024-03-28-memory-leak/</link>
