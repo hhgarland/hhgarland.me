@@ -18,15 +18,19 @@ theme = 'hugo-blog-awesome'
     url = '/'
     weight = 10
   [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+  [[menu.main]]
     pageRef="posts"
     name = 'Posts'
     url = '/posts/'
     weight = 20
   [[menu.main]]
-    pageRef="about"
-    name = 'About'
-    url = '/about/'
-    weight = 30
+    pageRef="uses"
+    name = 'Uses'
+    url = '/uses/'
 
 [params]
   sitename = "My technology blog"
