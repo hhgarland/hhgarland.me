@@ -3,7 +3,7 @@ title: Uses
 description: "Hardware and software I use"
 date: 2024-05-19
 ---
-I have used Linux since early 2009 when I decided to build my own PC and have used it daily ever since. Like most people in the field of information technology, I've used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with Sway and Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.
+I have been using Linux daily since 2009. Like most people in the field of information technology, I've used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with Sway and Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.
 
 # Hardware
 - Motherboard: Gigabyte Z97-HD3
