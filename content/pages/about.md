@@ -12,7 +12,7 @@ A few other blogs I follow:
 - [Voice in Peace VIP](https://melvinleejr.blogspot.com/)  
 - [Cisco Unified Communications and Collaboration](https://ciscouccollab.blogspot.com/)
 
-## Platforms and equipment I have experience working with
+## Technologies I know
 ### Traditional PBX
 - Iwatsu ECS
 - ADIX, ADIX-VS
@@ -53,9 +53,6 @@ A few other blogs I follow:
 - Cisco: UCS 220 M4, 5100 series
 - VMware: vSphere, ESXi
 - KVM
-
-## Currently learning
-- Thinking about getting my CompTIA Network+ again.
 
 ## Used in this site
 - DigitalOcean
