@@ -12,13 +12,13 @@ A few other blogs I follow:
 - [Voice in Peace VIP](https://melvinleejr.blogspot.com/)  
 - [Cisco Unified Communications and Collaboration](https://ciscouccollab.blogspot.com/)
 
-## Technologies I know
+## Platforms and equipment I have experience working with
 ### Traditional PBX
 - Iwatsu ECS
 - ADIX, ADIX-VS
 - Nortel CS1000M, CallPilot
 
-### VoIP
+### Voice-over-IP
 - Asterisk, FreePBX
 - Avaya Aura Contact Center, IP Office Server Edition
 - FreeSwitch, FusionPBX
@@ -32,6 +32,11 @@ A few other blogs I follow:
 - Avaya Aura Contact Center
 - Cisco Contact Center Express
 
+### Fax Servers
+- OpenText RightFax
+- MultiTech FaxFinder
+- Equisys Zetafax
+
 ### Networking
 - Cisco Routers/Gateways/ISRs: 2900 and 4000 series
 - Cisco Analog Gateways: VG350, VG310, VG224, VG204 series
@@ -42,10 +47,12 @@ A few other blogs I follow:
 
 ### Cloud
 - Microsoft Azure
-- Microsoft 365
+- Microsoft 365 Administration
 
-### Reporting
-- Variphy
+### Virtualization/Infrastructure
+- Cisco: UCS 220 M4, 5100 series
+- VMware: vSphere, ESXi
+- KVM
 
 ## Currently learning
 - Thinking about getting my CompTIA Network+ again.
