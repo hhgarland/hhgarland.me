@@ -14,12 +14,12 @@ I have been using Linux daily since 2009. Like most people in the field of infor
 
 # Software
 - Window manager: [dwm](https://dwm.suckless.org/) with pertag and vanitygaps patches 
-- Terminal emulator: [st](https://st.suckless.org) (particularly [this](https://github.com/siduck/st) fork) 
+- Terminal emulator: [st](https://st.suckless.org) (particularly [this](https://github.com/siduck/st) fork) or [wezterm](https://wezfurlong.org/wezterm/index.html) 
 - Shell: [zsh](https://www.zsh.org) 
 - Application launcher: [dmenu](https://tools.suckless.org/dmenu/) 
 - Editor: [neovim](https://neovim.io/) 
-- Web browser: Mozilla Firefox 
-- File manager: [nnn](https://github.com/jarun/nnn) 
+- Web browser: Brave and Mozilla Firefox 
+- File manager: [nnn](https://github.com/jarun/nnn) and [yazi](https://github.com/sxyazi/yazi) 
 - Notifications: [dunst](https://github.com/dunst-project/dunst) 
 - Image viewer: [nsxiv](https://github.com/nsxiv/nsxiv) and [feh](https://github.com/derf/feh) 
 - Video player: [mpv](https://github.com/mpv-player/mpv) 
@@ -27,3 +27,4 @@ I have been using Linux daily since 2009. Like most people in the field of infor
 - PDF reader: [zathura](https://github.com/pwmt/zathura) 
 - Lock screen: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) 
 - Idle daemon: [xautolock](https://linux.die.net/man/1/xautolock) 
+- Status bar: [dwmblocks](https://github.com/torrinfail/dwmblocks) 
