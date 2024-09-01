@@ -32,7 +32,7 @@ I have been using Linux daily since 2009. Like most people in the field of infor
 # Software (Wayland)
 **Update:** I've managed to get a pretty usable setup with Wayland:  
 - Window manager: [sway](https://swaywm.org) 
-- Terminal emulator: [foot](https://codeberg.org/dnkl/foot) 
+- Terminal emulator: [foot](https://codeberg.org/dnkl/foot) or [wezterm](https://wezfurlong.org/wezterm/index.html) 
 - Application launcher: [wofi](https://hg.sr.ht/~scoopta/wofi) 
 - Image viewer: [imv](https://sr.ht/~exec64/imv/) 
 - Lock screen: [swaylock](https://github.com/swaywm/swaylock) 
