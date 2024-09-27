@@ -4,119 +4,72 @@
     <title>My technology blog</title>
     <link>https://hhgarland.me/</link>
     <description>Recent content on My technology blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hhgarland.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hhgarland.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uses</title>
       <link>https://hhgarland.me/pages/uses/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://hhgarland.me/pages/uses/</guid>
-      
-      <description>I have been using Linux daily since 2009. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with Sway and Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.</description>
-      
+      <description>&lt;p&gt;I have been using Linux daily since 2009. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with &lt;del&gt;Sway and&lt;/del&gt; Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Memory Leak in Directory Sync Code</title>
       <link>https://hhgarland.me/posts/2024-03-28-memory-leak/</link>
       <pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2024-03-28-memory-leak/</guid>
-      
-      <description>When making a configuration change to a SIP trunk in CUCM, I was met with the following error: Update failed. Memory allocation failed during query processing.
-Troubleshooting steps:
-From the CUCM publisher node issue the show status command to check the memory totals. Also check the service list using utils service list to verify if the A Cisco DB service is started. Restart the A Cisco DB service with utils service restart A Cisco DB.</description>
-      
+      <description>&lt;p&gt;When making a configuration change to a SIP trunk in CUCM, I was met with the following error: &lt;em&gt;Update failed. Memory allocation failed during query processing.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Troubleshooting steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;From the CUCM publisher node issue the &lt;code&gt;show status&lt;/code&gt; command to check the memory totals.&lt;/li&gt;&#xA;&lt;li&gt;Also check the service list using &lt;code&gt;utils service list&lt;/code&gt; to verify if the &lt;em&gt;A Cisco DB&lt;/em&gt; service is started.&lt;/li&gt;&#xA;&lt;li&gt;Restart the &lt;em&gt;A Cisco DB&lt;/em&gt; service with &lt;code&gt;utils service restart A Cisco DB&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;After the service has restarted, try saving the configuration again for the SIP trunk.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Moving to a new domain</title>
       <link>https://hhgarland.me/posts/2024-03-18-new-site/</link>
       <pubDate>Mon, 18 Mar 2024 06:11:54 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2024-03-18-new-site/</guid>
-      
-      <description>I&amp;rsquo;ve moved my site from Gitlab to a new domain.
-The code can be viewed here.</description>
-      
+      <description>&lt;p&gt;I&amp;rsquo;ve moved my site from &lt;a href=&#34;https://hhgarland.gitlab.io&#34;&gt;Gitlab&lt;/a&gt; to a new &lt;a href=&#34;https://hhgarland.me&#34;&gt;domain&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The code can be viewed &lt;a href=&#34;https://github.com/hhgarland/hhgarland.me&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>CUBE Reconfiguration</title>
       <link>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</guid>
-      
-      <description>I was inspired to simplify my CUBE configuration after reading this article on the Cisco Learning website. The voice service voip section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:
-SIP URI definitions E.164 pattern maps Dial peer groups Server groups Translation profiles Dial peers Defining the SIP URIs For the inbound WAN and LAN dial peers, I wanted to match on the incoming uri via headers.</description>
-      
+      <description>&lt;p&gt;I was inspired to simplify my CUBE configuration after reading &lt;a href=&#34;https://learningnetwork.cisco.com/s/article/CUBE-Simplicity&#34;&gt;this&lt;/a&gt; article on the Cisco Learning website. The &lt;em&gt;voice service voip&lt;/em&gt; section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;SIP URI definitions&lt;/li&gt;&#xA;&lt;li&gt;E.164 pattern maps&lt;/li&gt;&#xA;&lt;li&gt;Dial peer groups&lt;/li&gt;&#xA;&lt;li&gt;Server groups&lt;/li&gt;&#xA;&lt;li&gt;Translation profiles&lt;/li&gt;&#xA;&lt;li&gt;Dial peers&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;defining-the-sip-uris&#34;&gt;Defining the SIP URIs&lt;/h3&gt;&#xA;&lt;p&gt;For the inbound WAN and LAN dial peers, I wanted to match on the &lt;em&gt;incoming uri via&lt;/em&gt; headers. Let&amp;rsquo;s define them here for both the ITSP and CCM:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Packet Capture on Cisco ISR</title>
       <link>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</link>
       <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</guid>
-      
-      <description>Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.</description>
-      
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Determine the interface where you want to capture traffic:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;show ip interface brief&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Stage the capture filters:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 interface gig0/0/0 both&#xA;monitor capture CAP1 match ipv4 any any&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Start the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 start&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Reproduce the issue.&lt;/li&gt;&#xA;&lt;li&gt;Stop the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 stop&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Export the capture to a TFTP server:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Disable the monitor capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;no monitor capture CAP1&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;Verify the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router1#sh monitor capture CAP1 buffer brief&#xA; ----------------------------------------------------------------------------&#xA; #   size   timestamp     source             destination      dscp    protocol&#xA; ----------------------------------------------------------------------------&#xA;   0  118    0.000000   10.113.20.7      -&amp;gt;  10.114.1.10      0  BE   UDP&#xA;   1  543    0.261980   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   2  520    0.310989   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   3  792    6.020003   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   4 1128    6.022994   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   5  118   10.131997   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   6  118   10.133996   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;   7   54   10.182989   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   8  118   10.211995   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   9  118   10.214985   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;  10   54   10.261980   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  11  118   10.342029   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  &amp;lt;cont&amp;#39;d...&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>Using SIP Profiles on Cisco VoIP Gateways</title>
       <link>https://hhgarland.me/posts/2023-07-21-sip-profiles/</link>
       <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2023-07-21-sip-profiles/</guid>
-      
-      <description>The problem I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.
-The call flow looks like this:
-1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN Issue with the SIP INVITE Upon further inspection I found that the initial INVITE was being rejected by the carrier:</description>
-      
+      <description>&lt;h3 id=&#34;the-problem&#34;&gt;The problem&lt;/h3&gt;&#xA;&lt;p&gt;I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.&lt;/p&gt;&#xA;&lt;p&gt;The call flow looks like this:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;issue-with-the-sip-invite&#34;&gt;Issue with the SIP INVITE&lt;/h3&gt;&#xA;&lt;p&gt;Upon further inspection I found that the initial INVITE was being rejected by the carrier:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>&#39;Failed type 6 encryption on password&#39;</title>
       <link>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</link>
       <pubDate>Sat, 17 Jun 2023 06:44:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</guid>
-      
-      <description>I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):
-site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com Failed type 6 encryption on password I had never seen the error Failed type 6 encryption on password before and I struggled somewhat in understanding how to change this. I ran into this article and it was subsequently the same solution I was given by Cisco TAC:</description>
-      
+      <description>&lt;p&gt;I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com&#xA;Failed type 6 encryption on password&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had never seen the error &lt;em&gt;Failed type 6 encryption on password&lt;/em&gt; before and I struggled somewhat in understanding how to change this. I ran into &lt;a href=&#34;https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495&#34;&gt;this&lt;/a&gt; article and it was subsequently the same solution I was given by Cisco TAC:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Handy SQL Queries for Cisco UC</title>
       <link>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</guid>
-      
-      <description>Here&amp;rsquo;s a growing list of handy SQL queries that I&amp;rsquo;ve found useful over the last few months.
-CUCM Gather phone information on a specific node:
-show risdb query phone Find a specific speed dial number. The device name, description, speed dial index, label, and number are listed:
-run sql select d.name, d.description, sd.speeddialindex, sd.label, sd.speeddialnumber from speeddial as sd inner join device as d on sd.fkdevice=d.pkid where speeddialnumber like &amp;#39;655%&amp;#39; View call forwarding status on all line appearances:</description>
-      
+      <description>&lt;p&gt;Here&amp;rsquo;s a growing list of handy SQL queries that I&amp;rsquo;ve found useful over the last few months.&lt;/p&gt;&#xA;&lt;h3 id=&#34;cucm&#34;&gt;CUCM&lt;/h3&gt;&#xA;&lt;p&gt;Gather phone information on a specific node:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;risdb&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;phone&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Find a specific speed dial number. The device name, description, speed dial index, label, and number are listed:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialindex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialnumber&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddial&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;inner&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fkdevice&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pkid&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;where&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialnumber&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;like&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;655%&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View call forwarding status on all line appearances:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://hhgarland.me/pages/about/</link>
       <pubDate>Sun, 28 May 2023 09:31:10 -0500</pubDate>
-      
       <guid>https://hhgarland.me/pages/about/</guid>
-      
-      <description>About me Hello and welcome to my blog where I post about VoIP/networking topics. This is somewhat of a knowledge base for my myself, but I hope others find this site useful. I can&amp;rsquo;t take much credit for the information here as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..
-A few other blogs I follow:
-NOC Thoughts Voice in Peace VIP Cisco Unified Communications and Collaboration Technologies I know Traditional PBX Iwatsu ECS ADIX, ADIX-VS Nortel CS1000M, CallPilot Voice-over-IP Asterisk, FreePBX Avaya Aura Contact Center, IP Office Server Edition FreeSwitch, FusionPBX Cisco Collaboration Appliances: Call Manager, Unity Connection, IM &amp;amp; Presence, Emergency Responder Cisco CUBE Cisco Webex Sangoma analog gateways ShoreTel Small Business Edition Contact Centers Avaya Aura Contact Center Cisco Contact Center Express Fax Servers OpenText RightFax MultiTech FaxFinder Equisys Zetafax Networking Cisco Routers/Gateways/ISRs: 2900 and 4000 series Cisco Analog Gateways: VG350, VG310, VG224, VG204 series Cisco Switches: 1000, 2900, 9300, 9500 series Firewalls Sophos: XG, SD-Red Cloud Microsoft Azure Microsoft 365 Administration Virtualization/Infrastructure Cisco: UCS 220 M4, 5100 series VMware: vSphere, ESXi KVM Used in this site DigitalOcean GitHub Hugo (Go) </description>
-      
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;p&gt;Hello and welcome to my blog where I post about VoIP/networking topics. This is somewhat of a knowledge base for my myself, but I hope others find this site useful. I can&amp;rsquo;t take much credit for the information here as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..&lt;/p&gt;&#xA;&lt;p&gt;A few other blogs I follow:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nocthoughts.com/&#34;&gt;NOC Thoughts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://melvinleejr.blogspot.com/&#34;&gt;Voice in Peace VIP&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ciscouccollab.blogspot.com/&#34;&gt;Cisco Unified Communications and Collaboration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-i-know&#34;&gt;Technologies I know&lt;/h2&gt;&#xA;&lt;h3 id=&#34;traditional-pbx&#34;&gt;Traditional PBX&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Iwatsu ECS&lt;/li&gt;&#xA;&lt;li&gt;ADIX, ADIX-VS&lt;/li&gt;&#xA;&lt;li&gt;Nortel CS1000M, CallPilot&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;voice-over-ip&#34;&gt;Voice-over-IP&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Asterisk, FreePBX&lt;/li&gt;&#xA;&lt;li&gt;Avaya Aura Contact Center, IP Office Server Edition&lt;/li&gt;&#xA;&lt;li&gt;FreeSwitch, FusionPBX&lt;/li&gt;&#xA;&lt;li&gt;Cisco Collaboration Appliances: Call Manager, Unity Connection, IM &amp;amp; Presence, Emergency Responder&lt;/li&gt;&#xA;&lt;li&gt;Cisco CUBE&lt;/li&gt;&#xA;&lt;li&gt;Cisco Webex&lt;/li&gt;&#xA;&lt;li&gt;Sangoma analog gateways&lt;/li&gt;&#xA;&lt;li&gt;ShoreTel Small Business Edition&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;contact-centers&#34;&gt;Contact Centers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Avaya Aura Contact Center&lt;/li&gt;&#xA;&lt;li&gt;Cisco Contact Center Express&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;directory-services&#34;&gt;Directory Services&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LDAP integrations with Cisco UCM&lt;/li&gt;&#xA;&lt;li&gt;Microsoft: Azure AD, Active Directory (on-prem)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;fax-servers&#34;&gt;Fax Servers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OpenText RightFax&lt;/li&gt;&#xA;&lt;li&gt;MultiTech FaxFinder&lt;/li&gt;&#xA;&lt;li&gt;Equisys Zetafax&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;networking&#34;&gt;Networking&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cisco Routers/Gateways/ISRs: 2900 and 4000 series&lt;/li&gt;&#xA;&lt;li&gt;Cisco Analog Gateways: VG350, VG310, VG224, VG204 series&lt;/li&gt;&#xA;&lt;li&gt;Cisco Switches: 1000, 2900, 9300, 9500 series&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;firewalls&#34;&gt;Firewalls&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sophos: XG, SD-Red&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cloud&#34;&gt;Cloud&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Microsoft: Azure, 365 Administration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;virtualizationinfrastructure&#34;&gt;Virtualization/Infrastructure&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cisco: UCS 220 M4, 5100 series&lt;/li&gt;&#xA;&lt;li&gt;VMware: vSphere, ESXi&lt;/li&gt;&#xA;&lt;li&gt;KVM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;used-in-this-site&#34;&gt;Used in this site&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DigitalOcean&lt;/li&gt;&#xA;&lt;li&gt;GitHub&lt;/li&gt;&#xA;&lt;li&gt;Hugo (Go)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

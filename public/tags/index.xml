@@ -4,107 +4,72 @@
     <title>Tags on My technology blog</title>
     <link>https://hhgarland.me/tags/</link>
     <description>Recent content in Tags on My technology blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate><atom:link href="https://hhgarland.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2024 05:37:05 -0500</lastBuildDate>
+    <atom:link href="https://hhgarland.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cucm</title>
       <link>https://hhgarland.me/tags/cucm/</link>
       <pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/cucm/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Cube</title>
       <link>https://hhgarland.me/tags/cube/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/cube/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Ios</title>
       <link>https://hhgarland.me/tags/ios/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/ios/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Sip</title>
       <link>https://hhgarland.me/tags/sip/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/sip/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Isr</title>
       <link>https://hhgarland.me/tags/isr/</link>
       <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/isr/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Freepbx</title>
       <link>https://hhgarland.me/tags/freepbx/</link>
       <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/freepbx/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Cuc</title>
       <link>https://hhgarland.me/tags/cuc/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/cuc/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Sql</title>
       <link>https://hhgarland.me/tags/sql/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/sql/</guid>
-      
       <description></description>
-      
     </item>
-    
     <item>
       <title>Uccx</title>
       <link>https://hhgarland.me/tags/uccx/</link>
       <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
-      
       <guid>https://hhgarland.me/tags/uccx/</guid>
-      
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

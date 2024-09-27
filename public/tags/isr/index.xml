@@ -4,19 +4,16 @@
     <title>Isr on My technology blog</title>
     <link>https://hhgarland.me/tags/isr/</link>
     <description>Recent content in Isr on My technology blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2023 09:02:59 -0500</lastBuildDate><atom:link href="https://hhgarland.me/tags/isr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jul 2023 09:02:59 -0500</lastBuildDate>
+    <atom:link href="https://hhgarland.me/tags/isr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Packet Capture on Cisco ISR</title>
       <link>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</link>
       <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
-      
       <guid>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</guid>
-      
-      <description>Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.</description>
-      
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Determine the interface where you want to capture traffic:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;show ip interface brief&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Stage the capture filters:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 interface gig0/0/0 both&#xA;monitor capture CAP1 match ipv4 any any&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Start the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 start&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Reproduce the issue.&lt;/li&gt;&#xA;&lt;li&gt;Stop the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 stop&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Export the capture to a TFTP server:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Disable the monitor capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;no monitor capture CAP1&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;Verify the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router1#sh monitor capture CAP1 buffer brief&#xA; ----------------------------------------------------------------------------&#xA; #   size   timestamp     source             destination      dscp    protocol&#xA; ----------------------------------------------------------------------------&#xA;   0  118    0.000000   10.113.20.7      -&amp;gt;  10.114.1.10      0  BE   UDP&#xA;   1  543    0.261980   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   2  520    0.310989   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   3  792    6.020003   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   4 1128    6.022994   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   5  118   10.131997   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   6  118   10.133996   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;   7   54   10.182989   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   8  118   10.211995   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   9  118   10.214985   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;  10   54   10.261980   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  11  118   10.342029   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  &amp;lt;cont&amp;#39;d...&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
   </channel>
 </rss>

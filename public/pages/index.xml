@@ -4,32 +4,23 @@
     <title>Pages on My technology blog</title>
     <link>https://hhgarland.me/pages/</link>
     <description>Recent content in Pages on My technology blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hhgarland.me/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hhgarland.me/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uses</title>
       <link>https://hhgarland.me/pages/uses/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://hhgarland.me/pages/uses/</guid>
-      
-      <description>I have been using Linux daily since 2009. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with Sway and Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.</description>
-      
+      <description>&lt;p&gt;I have been using Linux daily since 2009. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with &lt;del&gt;Sway and&lt;/del&gt; Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://hhgarland.me/pages/about/</link>
       <pubDate>Sun, 28 May 2023 09:31:10 -0500</pubDate>
-      
       <guid>https://hhgarland.me/pages/about/</guid>
-      
-      <description>About me Hello and welcome to my blog where I post about VoIP/networking topics. This is somewhat of a knowledge base for my myself, but I hope others find this site useful. I can&amp;rsquo;t take much credit for the information here as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..
-A few other blogs I follow:
-NOC Thoughts Voice in Peace VIP Cisco Unified Communications and Collaboration Technologies I know Traditional PBX Iwatsu ECS ADIX, ADIX-VS Nortel CS1000M, CallPilot Voice-over-IP Asterisk, FreePBX Avaya Aura Contact Center, IP Office Server Edition FreeSwitch, FusionPBX Cisco Collaboration Appliances: Call Manager, Unity Connection, IM &amp;amp; Presence, Emergency Responder Cisco CUBE Cisco Webex Sangoma analog gateways ShoreTel Small Business Edition Contact Centers Avaya Aura Contact Center Cisco Contact Center Express Fax Servers OpenText RightFax MultiTech FaxFinder Equisys Zetafax Networking Cisco Routers/Gateways/ISRs: 2900 and 4000 series Cisco Analog Gateways: VG350, VG310, VG224, VG204 series Cisco Switches: 1000, 2900, 9300, 9500 series Firewalls Sophos: XG, SD-Red Cloud Microsoft Azure Microsoft 365 Administration Virtualization/Infrastructure Cisco: UCS 220 M4, 5100 series VMware: vSphere, ESXi KVM Used in this site DigitalOcean GitHub Hugo (Go) </description>
-      
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;p&gt;Hello and welcome to my blog where I post about VoIP/networking topics. This is somewhat of a knowledge base for my myself, but I hope others find this site useful. I can&amp;rsquo;t take much credit for the information here as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..&lt;/p&gt;&#xA;&lt;p&gt;A few other blogs I follow:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nocthoughts.com/&#34;&gt;NOC Thoughts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://melvinleejr.blogspot.com/&#34;&gt;Voice in Peace VIP&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ciscouccollab.blogspot.com/&#34;&gt;Cisco Unified Communications and Collaboration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-i-know&#34;&gt;Technologies I know&lt;/h2&gt;&#xA;&lt;h3 id=&#34;traditional-pbx&#34;&gt;Traditional PBX&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Iwatsu ECS&lt;/li&gt;&#xA;&lt;li&gt;ADIX, ADIX-VS&lt;/li&gt;&#xA;&lt;li&gt;Nortel CS1000M, CallPilot&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;voice-over-ip&#34;&gt;Voice-over-IP&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Asterisk, FreePBX&lt;/li&gt;&#xA;&lt;li&gt;Avaya Aura Contact Center, IP Office Server Edition&lt;/li&gt;&#xA;&lt;li&gt;FreeSwitch, FusionPBX&lt;/li&gt;&#xA;&lt;li&gt;Cisco Collaboration Appliances: Call Manager, Unity Connection, IM &amp;amp; Presence, Emergency Responder&lt;/li&gt;&#xA;&lt;li&gt;Cisco CUBE&lt;/li&gt;&#xA;&lt;li&gt;Cisco Webex&lt;/li&gt;&#xA;&lt;li&gt;Sangoma analog gateways&lt;/li&gt;&#xA;&lt;li&gt;ShoreTel Small Business Edition&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;contact-centers&#34;&gt;Contact Centers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Avaya Aura Contact Center&lt;/li&gt;&#xA;&lt;li&gt;Cisco Contact Center Express&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;directory-services&#34;&gt;Directory Services&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LDAP integrations with Cisco UCM&lt;/li&gt;&#xA;&lt;li&gt;Microsoft: Azure AD, Active Directory (on-prem)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;fax-servers&#34;&gt;Fax Servers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OpenText RightFax&lt;/li&gt;&#xA;&lt;li&gt;MultiTech FaxFinder&lt;/li&gt;&#xA;&lt;li&gt;Equisys Zetafax&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;networking&#34;&gt;Networking&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cisco Routers/Gateways/ISRs: 2900 and 4000 series&lt;/li&gt;&#xA;&lt;li&gt;Cisco Analog Gateways: VG350, VG310, VG224, VG204 series&lt;/li&gt;&#xA;&lt;li&gt;Cisco Switches: 1000, 2900, 9300, 9500 series&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;firewalls&#34;&gt;Firewalls&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sophos: XG, SD-Red&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cloud&#34;&gt;Cloud&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Microsoft: Azure, 365 Administration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;virtualizationinfrastructure&#34;&gt;Virtualization/Infrastructure&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cisco: UCS 220 M4, 5100 series&lt;/li&gt;&#xA;&lt;li&gt;VMware: vSphere, ESXi&lt;/li&gt;&#xA;&lt;li&gt;KVM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;used-in-this-site&#34;&gt;Used in this site&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DigitalOcean&lt;/li&gt;&#xA;&lt;li&gt;GitHub&lt;/li&gt;&#xA;&lt;li&gt;Hugo (Go)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>
