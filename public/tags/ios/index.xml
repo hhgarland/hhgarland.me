@@ -4,37 +4,116 @@
     <title>Ios on My technology blog</title>
     <link>https://hhgarland.me/tags/ios/</link>
     <description>Recent content in Ios on My technology blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2024 20:34:59 -0500</lastBuildDate>
-    <atom:link href="https://hhgarland.me/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jan 2024 20:34:59 -0500</lastBuildDate><atom:link href="https://hhgarland.me/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CUBE Reconfiguration</title>
       <link>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</link>
       <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
+      
       <guid>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</guid>
-      <description>&lt;p&gt;I was inspired to simplify my CUBE configuration after reading &lt;a href=&#34;https://learningnetwork.cisco.com/s/article/CUBE-Simplicity&#34;&gt;this&lt;/a&gt; article on the Cisco Learning website. The &lt;em&gt;voice service voip&lt;/em&gt; section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;SIP URI definitions&lt;/li&gt;&#xA;&lt;li&gt;E.164 pattern maps&lt;/li&gt;&#xA;&lt;li&gt;Dial peer groups&lt;/li&gt;&#xA;&lt;li&gt;Server groups&lt;/li&gt;&#xA;&lt;li&gt;Translation profiles&lt;/li&gt;&#xA;&lt;li&gt;Dial peers&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;defining-the-sip-uris&#34;&gt;Defining the SIP URIs&lt;/h3&gt;&#xA;&lt;p&gt;For the inbound WAN and LAN dial peers, I wanted to match on the &lt;em&gt;incoming uri via&lt;/em&gt; headers. Let&amp;rsquo;s define them here for both the ITSP and CCM:&lt;/p&gt;</description>
+      
+      <description>&lt;p&gt;I was inspired to simplify my CUBE configuration after reading &lt;a href=&#34;https://learningnetwork.cisco.com/s/article/CUBE-Simplicity&#34;&gt;this&lt;/a&gt; article on the Cisco Learning website. The &lt;em&gt;voice service voip&lt;/em&gt; section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;SIP URI definitions&lt;/li&gt;
+&lt;li&gt;E.164 pattern maps&lt;/li&gt;
+&lt;li&gt;Dial peer groups&lt;/li&gt;
+&lt;li&gt;Server groups&lt;/li&gt;
+&lt;li&gt;Translation profiles&lt;/li&gt;
+&lt;li&gt;Dial peers&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;defining-the-sip-uris&#34;&gt;Defining the SIP URIs&lt;/h3&gt;
+&lt;p&gt;For the inbound WAN and LAN dial peers, I wanted to match on the &lt;em&gt;incoming uri via&lt;/em&gt; headers. Let&amp;rsquo;s define them here for both the ITSP and CCM:&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>Packet Capture on Cisco ISR</title>
       <link>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</link>
       <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
+      
       <guid>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;Determine the interface where you want to capture traffic:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;show ip interface brief&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Stage the capture filters:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 interface gig0/0/0 both&#xA;monitor capture CAP1 match ipv4 any any&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Start the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 start&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Reproduce the issue.&lt;/li&gt;&#xA;&lt;li&gt;Stop the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 stop&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Export the capture to a TFTP server:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Disable the monitor capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;no monitor capture CAP1&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;Verify the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router1#sh monitor capture CAP1 buffer brief&#xA; ----------------------------------------------------------------------------&#xA; #   size   timestamp     source             destination      dscp    protocol&#xA; ----------------------------------------------------------------------------&#xA;   0  118    0.000000   10.113.20.7      -&amp;gt;  10.114.1.10      0  BE   UDP&#xA;   1  543    0.261980   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   2  520    0.310989   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   3  792    6.020003   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   4 1128    6.022994   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   5  118   10.131997   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   6  118   10.133996   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;   7   54   10.182989   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   8  118   10.211995   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   9  118   10.214985   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;  10   54   10.261980   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  11  118   10.342029   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  &amp;lt;cont&amp;#39;d...&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      
+      <description>&lt;ol&gt;
+&lt;li&gt;Determine the interface where you want to capture traffic:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;show ip interface brief
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Stage the capture filters:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 interface gig0/0/0 both
+monitor capture CAP1 match ipv4 any any
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Start the capture:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 start
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Reproduce the issue.&lt;/li&gt;
+&lt;li&gt;Stop the capture:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 stop
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Export the capture to a TFTP server:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Disable the monitor capture:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;no monitor capture CAP1
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Verify the capture:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router1#sh monitor capture CAP1 buffer brief
+ ----------------------------------------------------------------------------
+ #   size   timestamp     source             destination      dscp    protocol
+ ----------------------------------------------------------------------------
+   0  118    0.000000   10.113.20.7      -&amp;gt;  10.114.1.10      0  BE   UDP
+   1  543    0.261980   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP
+   2  520    0.310989   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP
+   3  792    6.020003   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP
+   4 1128    6.022994   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP
+   5  118   10.131997   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
+   6  118   10.133996   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP
+   7   54   10.182989   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
+   8  118   10.211995   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
+   9  118   10.214985   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP
+  10   54   10.261980   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
+  11  118   10.342029   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
+  &amp;lt;cont&amp;#39;d...&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
     </item>
+    
     <item>
       <title>Using SIP Profiles on Cisco VoIP Gateways</title>
       <link>https://hhgarland.me/posts/2023-07-21-sip-profiles/</link>
       <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
+      
       <guid>https://hhgarland.me/posts/2023-07-21-sip-profiles/</guid>
-      <description>&lt;h3 id=&#34;the-problem&#34;&gt;The problem&lt;/h3&gt;&#xA;&lt;p&gt;I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.&lt;/p&gt;&#xA;&lt;p&gt;The call flow looks like this:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;issue-with-the-sip-invite&#34;&gt;Issue with the SIP INVITE&lt;/h3&gt;&#xA;&lt;p&gt;Upon further inspection I found that the initial INVITE was being rejected by the carrier:&lt;/p&gt;</description>
+      
+      <description>&lt;h3 id=&#34;the-problem&#34;&gt;The problem&lt;/h3&gt;
+&lt;p&gt;I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.&lt;/p&gt;
+&lt;p&gt;The call flow looks like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;issue-with-the-sip-invite&#34;&gt;Issue with the SIP INVITE&lt;/h3&gt;
+&lt;p&gt;Upon further inspection I found that the initial INVITE was being rejected by the carrier:&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>&#39;Failed type 6 encryption on password&#39;</title>
       <link>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</link>
       <pubDate>Sat, 17 Jun 2023 06:44:59 -0500</pubDate>
+      
       <guid>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</guid>
-      <description>&lt;p&gt;I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com&#xA;Failed type 6 encryption on password&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had never seen the error &lt;em&gt;Failed type 6 encryption on password&lt;/em&gt; before and I struggled somewhat in understanding how to change this. I ran into &lt;a href=&#34;https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495&#34;&gt;this&lt;/a&gt; article and it was subsequently the same solution I was given by Cisco TAC:&lt;/p&gt;</description>
+      
+      <description>&lt;p&gt;I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com
+Failed type 6 encryption on password
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had never seen the error &lt;em&gt;Failed type 6 encryption on password&lt;/em&gt; before and I struggled somewhat in understanding how to change this. I ran into &lt;a href=&#34;https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495&#34;&gt;this&lt;/a&gt; article and it was subsequently the same solution I was given by Cisco TAC:&lt;/p&gt;</description>
+      
     </item>
+    
   </channel>
 </rss>
