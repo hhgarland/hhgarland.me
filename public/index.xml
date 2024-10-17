@@ -14,7 +14,33 @@
       
       <guid>https://hhgarland.me/pages/uses/</guid>
       
-      <description>&lt;p&gt;I have been using Linux daily since 2009. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well. I have tried moving to Wayland off and on with &lt;del&gt;Sway and&lt;/del&gt; Hyprland, but I always find myself tinkering too much. Dwm gives me everything I need in a window manager, where I can just compile the source code and get to work.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have been using Linux daily since 2009. Like most people in the field of information technology, I&amp;rsquo;ve used Microsoft Windows on a daily basis as well.&lt;/p&gt;
+&lt;h1 id=&#34;hardware&#34;&gt;Hardware&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Motherboard: Gigabyte Z97-HD3&lt;/li&gt;
+&lt;li&gt;CPU: Intel Core i5-4440&lt;/li&gt;
+&lt;li&gt;GPU 1: Intel Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller&lt;/li&gt;
+&lt;li&gt;GPU 2: AMD Radeon RX 460 Graphics&lt;/li&gt;
+&lt;li&gt;Memory: 16 GiB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;software-wayland&#34;&gt;Software (Wayland)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Window manager: &lt;a href=&#34;https://codeberg.org/river/river&#34;&gt;river&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Application launcher: &lt;a href=&#34;https://codeberg.org/dnkl/fuzzel&#34;&gt;fuzzel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Editor: &lt;a href=&#34;https://neovim.io/&#34;&gt;neovim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;File manager: &lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Idle daemon: &lt;a href=&#34;https://github.com/swaywm/swayidle&#34;&gt;swayidle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Image viewer: &lt;a href=&#34;https://sr.ht/~exec64/imv/&#34;&gt;imv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lock screen: &lt;a href=&#34;https://github.com/swaywm/swaylock&#34;&gt;swaylock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Music player: &lt;a href=&#34;https://github.com/MusicPlayerDaemon/MPD&#34;&gt;mpd&lt;/a&gt; and &lt;a href=&#34;https://github.com/ncmpcpp/ncmpcpp&#34;&gt;ncmpcpp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Notifications: &lt;a href=&#34;https://github.com/dunst-project/dunst&#34;&gt;dunst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PDF reader: &lt;a href=&#34;https://github.com/pwmt/zathura&#34;&gt;zathura&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Status bar: &lt;a href=&#34;https://github.com/Alexays/Waybar&#34;&gt;waybar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Terminal emulator: &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;foot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Video player: &lt;a href=&#34;https://github.com/mpv-player/mpv&#34;&gt;mpv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;software-x11&#34;&gt;Software (X11)&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I&amp;rsquo;m no longer using the X11 setup below. It served me well for a long time, but I&amp;rsquo;m moved solely into the world of Wayland.&lt;/p&gt;</description>
       
     </item>
     
