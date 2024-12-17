@@ -13,7 +13,7 @@ I have been using Linux daily since 2009. Like most people in the field of infor
 - Memory: 16 GiB
 
 # Software (Wayland)
-- Window manager: [river](https://codeberg.org/river/river) 
+- Window manager: [sway](https://swaywm.org) or [river](https://codeberg.org/river/river) 
 - Application launcher: [fuzzel](https://codeberg.org/dnkl/fuzzel) 
 - Editor: [neovim](https://neovim.io/) 
 - File manager: [yazi](https://github.com/sxyazi/yazi) 

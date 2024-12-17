@@ -25,7 +25,7 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;software-wayland&#34;&gt;Software (Wayland)&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Window manager: &lt;a href=&#34;https://codeberg.org/river/river&#34;&gt;river&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Window manager: &lt;a href=&#34;https://swaywm.org&#34;&gt;sway&lt;/a&gt; or &lt;a href=&#34;https://codeberg.org/river/river&#34;&gt;river&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Application launcher: &lt;a href=&#34;https://codeberg.org/dnkl/fuzzel&#34;&gt;fuzzel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Editor: &lt;a href=&#34;https://neovim.io/&#34;&gt;neovim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;File manager: &lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;
