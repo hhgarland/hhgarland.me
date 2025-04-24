@@ -14,7 +14,7 @@
       
       <guid>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</guid>
       
-      <description>&lt;p&gt;Here&amp;rsquo;s a growing list of handy SQL queries that I&amp;rsquo;ve found useful over the last few months.&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;ve listed below a forever growing list of handy SQL queries that I&amp;rsquo;ve found useful.&lt;/p&gt;
 &lt;h3 id=&#34;cucm&#34;&gt;CUCM&lt;/h3&gt;
 &lt;p&gt;Gather phone information on a specific node:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;risdb&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;phone&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;

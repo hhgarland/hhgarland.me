@@ -4,7 +4,7 @@ date: 2023-05-28T09:49:28-05:00
 tags: ['cucm','cuc','uccx','sql']
 ---
 
-Here's a growing list of handy SQL queries that I've found useful over the last few months.
+I've listed below a forever growing list of handy SQL queries that I've found useful.
 
 ### CUCM
 
