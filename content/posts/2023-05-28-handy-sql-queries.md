@@ -38,6 +38,12 @@ List all End Users and primary directory number:
 run sql select e.userid, n.dnorpattern from enduser as e, numplan as n, endusernumplanmap as x where (e.pkid = x.fkenduser and x.fknumplan = n.pkid)
 ```
 
+List DND status for devices:
+
+```sql
+run sql select device.name, device.description, device.tkdndoption, device.tkringsetting_dnd, dnddynamic.dndstatus from device left join dnddynamic on dnddynamic.fkdevice = device.pkid
+```
+
 ### CUC
 
 List users with total, inbox, and deleted messages:
