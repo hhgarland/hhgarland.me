@@ -35,7 +35,7 @@ theme = 'hugo-blog-awesome'
 [params]
   sitename = "My technology blog"
   defaultColor = "auto" # set color mode: dark, light, auto
-  description = "My personal knowledgebase for telecommunications, Unified Communications, VoIP, networking, etc.."
+  description = "My personal knowledgebase for telecommunications, networking, Linux, Unified Communications, VoIP, etc.."
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
