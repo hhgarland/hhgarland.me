@@ -50,7 +50,7 @@ theme = 'hugo-blog-awesome'
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "My technology blog"
   name = "Hayden G"
-  description = "My personal knowledgebase for telecommunications/UC/VoIP, networking, etc.."
+  description = "My personal knowledgebase for telecommunications, networking, Linux, Unified Communications, VoIP, etc.."
 
 # Allow to override webmanifest options
 [params.webmanifest]
