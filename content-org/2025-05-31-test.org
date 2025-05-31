@@ -1,0 +1,9 @@
+:CONFIG:
+#+hugo_base_dir: ../
+:END:
+
+#+title: Testing Ox-Hugo in Emacs
+#+author: Hayden G.
+#+date: <2025-05-31 Sat>
+
+I'm using [[https://github.com/hhgarland/hhgarland.me/tree/main/content-org/2025-05-31-test.org][this]] source file to test [[https://ox-hugo.scripter.co/][ox-hugo]] in Emacs.
