@@ -15,7 +15,9 @@ date: 2025-04-03
 
 - Window manager: [hyprland](https://hyprland.org) or [sway](https://github.com/swaywm/sway)
 - Application launcher: [fuzzel](https://codeberg.org/dnkl/fuzzel)
-- Editor: [Doom Emacs](https://github.com/doomemacs/doomemacs) and [neovim](https://neovim.io/)
+- Editor:
+  - [neovim](https://neovim.io/), particularly [LazyVim](https://www.lazyvim.org)
+  - Sometimes [Doom Emacs](https://github.com/doomemacs/doomemacs) for org files
 - File manager: [yazi](https://github.com/sxyazi/yazi)
 - Idle daemon: [hypridle](https://github.com/hyprwm/hypridle) or [swayidle](https://github.com/swaywm/swayidle)
 - Image viewer: [imv](https://sr.ht/~exec64/imv/) and [swayimg](https://github.com/artemsen/swayimg)
