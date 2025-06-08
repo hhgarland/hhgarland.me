@@ -28,11 +28,16 @@
 &lt;li&gt;Application launcher: &lt;a href=&#34;https://codeberg.org/dnkl/fuzzel&#34;&gt;fuzzel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Editor:
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34;&gt;Doom Emacs&lt;/a&gt; (hehehe 😈)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://neovim.io/&#34;&gt;neovim&lt;/a&gt;, particularly &lt;a href=&#34;https://www.lazyvim.org&#34;&gt;LazyVim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sometimes &lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34;&gt;Doom Emacs&lt;/a&gt; for org files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;File manager: &lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;File manager:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alexluigit/dirvish&#34;&gt;dirvish/dired&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Idle daemon: &lt;a href=&#34;https://github.com/hyprwm/hypridle&#34;&gt;hypridle&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/swayidle&#34;&gt;swayidle&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Image viewer: &lt;a href=&#34;https://sr.ht/~exec64/imv/&#34;&gt;imv&lt;/a&gt; and &lt;a href=&#34;https://github.com/artemsen/swayimg&#34;&gt;swayimg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lock screen: &lt;a href=&#34;https://github.com/hyprwm/hyprlock&#34;&gt;hyprlock&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/swaylock&#34;&gt;swaylock&lt;/a&gt;&lt;/li&gt;
