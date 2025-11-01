@@ -1,4 +1,4 @@
-title = 'My technology blog'
+title = 'Layer 8 Logs'
 baseURL = 'https://hhgarland.me'
 languageCode = 'en-us'
 theme = 'hugo-blog-awesome'
@@ -33,12 +33,12 @@ name = 'Uses'
 url = '/uses/'
 
 [params]
-sitename = "My technology blog"
-defaultColor = "auto"                                                                                                    # set color mode: dark, light, auto
-description = "My personal knowledgebase for telecommunications, networking, Linux, Unified Communications, VoIP, etc.."
+sitename = "Layer 8 Logs"
+defaultColor = "auto"                                                                                                                                # set color mode: dark, light, auto
+description = "Notes and insights on networking, Linux, Unified Communications, and other systems that keep things connected—plus a bit of fitness."
 mainSections = ['posts']
-toc = false                                                                                                              # set to false to disable table of contents 'globally'
-goToTop = true                                                                                                           # set to false to disable 'go to top' button
+toc = false                                                                                                                                          # set to false to disable table of contents 'globally'
+goToTop = true                                                                                                                                       # set to false to disable 'go to top' button
 # additionalScripts = ['js/custom.js', 'js/custom-2.js']
 # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
 # Your custom scripts will be concatinated to one file `custom.js`.
@@ -48,9 +48,9 @@ goToTop = true                                                                  
 [params.author]
 # avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
 # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-intro = "My technology blog"
+intro = "Layer 8 Logs"
 name = "Hayden G"
-description = "My personal knowledgebase for telecommunications, networking, Linux, Unified Communications, VoIP, etc.."
+description = "Notes and insights on networking, Linux, Unified Communications, and other systems that keep things connected—plus a bit of fitness."
 
 # Allow to override webmanifest options
 [params.webmanifest]
