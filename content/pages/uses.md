@@ -3,7 +3,10 @@ title: Uses
 description: "Hardware and software I use"
 date: 2025-04-03
 ---
+
 ## Hardware
+
+Everything here in incredibly old:
 
 - Motherboard: Gigabyte Z97-HD3
 - CPU: Intel Core i5-4440
@@ -15,12 +18,8 @@ date: 2025-04-03
 
 - Window manager: [hyprland](https://hyprland.org) or [sway](https://github.com/swaywm/sway)
 - Application launcher: [fuzzel](https://codeberg.org/dnkl/fuzzel)
-- Editor:
-  - [Doom Emacs](https://github.com/doomemacs/doomemacs) (hehehe 😈)
-  - [neovim](https://neovim.io/), particularly [LazyVim](https://www.lazyvim.org)
-- File manager: 
-  - [dirvish/dired](https://github.com/alexluigit/dirvish)
-  - [yazi](https://github.com/sxyazi/yazi)
+- Editor: [neovim](https://neovim.io/), particularly [LazyVim](https://www.lazyvim.org)
+- File manager: [yazi](https://github.com/sxyazi/yazi)
 - Idle daemon: [hypridle](https://github.com/hyprwm/hypridle) or [swayidle](https://github.com/swaywm/swayidle)
 - Image viewer: [imv](https://sr.ht/~exec64/imv/) and [swayimg](https://github.com/artemsen/swayimg)
 - Lock screen: [hyprlock](https://github.com/hyprwm/hyprlock) or [swaylock](https://github.com/swaywm/swaylock)
@@ -29,13 +28,14 @@ date: 2025-04-03
 - PDF reader: [zathura](https://github.com/pwmt/zathura)
 - Shell: [zsh](https://www.zsh.org)
 - Status bar: [waybar](https://github.com/Alexays/Waybar)
-- Terminal emulator: [foot](https://codeberg.org/dnkl/foot) or [wezterm](https://wezfurlong.org/wezterm/index.html)
+- Terminal emulator: [ghostty](https://github.com/ghostty-org/ghostty) or [kitty](https://github.com/kovidgoyal/kitty)
 - Video player: [mpv](https://github.com/mpv-player/mpv)
 - Web browser: [zen browser](https://zen-browser.app/)
 
 ## Software (X11)
 
-**Note:** I'm no longer using the X11 setup below as I've moved solely to Wayland.
+> [!NOTE]
+> I'm no longer using the X11 setup below as I've moved solely to Wayland (for now).
 
 - Window manager: [dwm](https://dwm.suckless.org/) with pertag and vanitygaps patches
 - Application launcher: [dmenu](https://tools.suckless.org/dmenu/)
