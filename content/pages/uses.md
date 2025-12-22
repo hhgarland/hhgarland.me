@@ -34,7 +34,7 @@ Everything here in incredibly old:
 
 ## Software (X11)
 
-> [!NOTE]
+> **Note:**
 > I'm no longer using the X11 setup below as I've moved solely to Wayland (for now).
 
 - Window manager: [dwm](https://dwm.suckless.org/) with pertag and vanitygaps patches
