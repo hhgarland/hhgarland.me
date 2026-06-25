@@ -5,9 +5,11 @@ tags: ['cube','sip','ios','freepbx']
 description: "Manipulating SIP headers on Cisco VoIP Gateways"
 ---
 
-### The problem
+## The Problem
 
-I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.
+I stumbled upon an issue with outbound calls failing that were being made from
+a Sangoma analog gateway with FreePBX being used as a SIP proxy between the
+endpoint and the PSTN gateway.
 
 The call flow looks like this:
 
@@ -15,9 +17,10 @@ The call flow looks like this:
 1. Sangoma Analog Gateway <-----> 2. FreePBX <-----> 3. Cisco Gateway <-----> 4. PSTN
 ```
 
-### Issue with the SIP INVITE
+## Issue with the SIP INVITE
 
-Upon further inspection I found that the initial INVITE was being rejected by the carrier:
+Upon further inspection I found that the initial INVITE was being rejected by
+the carrier:
 
 ```
 INVITE sip:13334445567@10.128.20.3 SIP/2.0
@@ -48,7 +51,8 @@ a=maxptime:150
 a=sendrecv
 ```
 
-In the INVITE above, the From and Contact fields with "Unknown" listed were causing the issue:
+In the INVITE above, the From and Contact fields with "Unknown" listed were
+causing the issue:
 
 ```
 From: "vega" <sip:Unknown@10.112.20.12>;tag=as1f8a8d71
@@ -56,9 +60,12 @@ From: "vega" <sip:Unknown@10.112.20.12>;tag=as1f8a8d71
 Contact: <sip:Unknown@10.112.20.12:5060>
 ```
 
-### Creating and applying a SIP profile
+## Creating and applying a SIP profile
 
-Since I don't know much about the Sangoma analog gateway and how to set the CLID for an endpoint, I knew that the quickest method to correct this would be to apply a SIP profile to the outbound dial-peer that would the change the From and Contact fields:
+Since I don't know much about the Sangoma analog gateway and how to set the CLID
+for an endpoint, I knew that the quickest method to correct this would be to
+apply a SIP profile to the outbound dial-peer that would the change the From and
+Contact fields:
 
 ```
 Router(config)# voice class sip-profiles 20
@@ -66,7 +73,7 @@ Router(config-class)# request INVITE sip-header From modify "(<.*:)(Unknown)" "\
 Router(config-class)# request INVITE sip-header Contact modify "(<.*:)(Unknown)" "\13334447009"
 ```
 
-Apply the sip profile to the appropriate dial-peer:
+Apply the SIP profile to the appropriate dial-peer:
 
 ```
 Router(config)# dial-peer voice 100 voip
@@ -112,10 +119,12 @@ a=rtpmap:19 CN/8000
 a=ptime:20
 ```
 
-As you can see above, the From and Contact headers have been modified to show a legitimate number.
+As you can see above, the From and Contact headers have been modified to show a
+legitimate number.
 
-### Update
+## Update
 
-Rebuilding the configuration between the Sangoma gateway and FreePBX seemed to do the trick with regards to setting the 
-caller ID. I installed the *Vega Gateway Module* on the FreePBX server and setup each analog line as its own 
+Rebuilding the configuration between the Sangoma gateway and FreePBX seemed to
+do the trick with regards to setting the caller ID. I installed the *Vega Gateway
+Module* on the FreePBX server and setup each analog line as its own
 SIP user/extension.
