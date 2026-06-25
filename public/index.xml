@@ -1,253 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Layer 8 Logs</title>
-    <link>https://hhgarland.me/</link>
-    <description>Recent content on Layer 8 Logs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hhgarland.me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Uses</title>
-      <link>https://hhgarland.me/pages/uses/</link>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://hhgarland.me/pages/uses/</guid>
-      
-      <description>&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
-&lt;p&gt;Everything here in incredibly old:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Motherboard: Gigabyte Z97-HD3&lt;/li&gt;
-&lt;li&gt;CPU: Intel Core i5-4440&lt;/li&gt;
-&lt;li&gt;GPU 1: Intel Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller&lt;/li&gt;
-&lt;li&gt;GPU 2: AMD Radeon RX 460 Graphics&lt;/li&gt;
-&lt;li&gt;Memory: 16 GiB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;software-wayland&#34;&gt;Software (Wayland)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Window manager: &lt;a href=&#34;https://hyprland.org&#34;&gt;hyprland&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/sway&#34;&gt;sway&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Application launcher: &lt;a href=&#34;https://codeberg.org/dnkl/fuzzel&#34;&gt;fuzzel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Editor: &lt;a href=&#34;https://neovim.io/&#34;&gt;neovim&lt;/a&gt;, particularly &lt;a href=&#34;https://www.lazyvim.org&#34;&gt;LazyVim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;File manager: &lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Idle daemon: &lt;a href=&#34;https://github.com/hyprwm/hypridle&#34;&gt;hypridle&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/swayidle&#34;&gt;swayidle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Image viewer: &lt;a href=&#34;https://sr.ht/~exec64/imv/&#34;&gt;imv&lt;/a&gt; and &lt;a href=&#34;https://github.com/artemsen/swayimg&#34;&gt;swayimg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lock screen: &lt;a href=&#34;https://github.com/hyprwm/hyprlock&#34;&gt;hyprlock&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/swaylock&#34;&gt;swaylock&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Music player: &lt;a href=&#34;https://github.com/MusicPlayerDaemon/MPD&#34;&gt;mpd&lt;/a&gt; and &lt;a href=&#34;https://mierak.github.io/rmpc/&#34;&gt;rmpc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Notifications: &lt;a href=&#34;https://github.com/emersion/mako&#34;&gt;mako&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PDF reader: &lt;a href=&#34;https://github.com/pwmt/zathura&#34;&gt;zathura&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shell: &lt;a href=&#34;https://www.zsh.org&#34;&gt;zsh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Status bar: &lt;a href=&#34;https://github.com/Alexays/Waybar&#34;&gt;waybar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Terminal emulator: &lt;a href=&#34;https://github.com/ghostty-org/ghostty&#34;&gt;ghostty&lt;/a&gt; or &lt;a href=&#34;https://github.com/kovidgoyal/kitty&#34;&gt;kitty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Video player: &lt;a href=&#34;https://github.com/mpv-player/mpv&#34;&gt;mpv&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Web browser: &lt;a href=&#34;https://zen-browser.app/&#34;&gt;zen browser&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;software-x11&#34;&gt;Software (X11)&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-I&amp;rsquo;m no longer using the X11 setup below as I&amp;rsquo;ve moved solely to Wayland (for now).&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>CAR Scheduler High CPU Utilization</title>
-      <link>https://hhgarland.me/posts/2025-04-01-car-scheduler-high-cpu/</link>
-      <pubDate>Tue, 01 Apr 2025 20:26:12 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2025-04-01-car-scheduler-high-cpu/</guid>
-      
-      <description>&lt;h2 id=&#34;issue&#34;&gt;Issue&lt;/h2&gt;
-&lt;p&gt;High CPU utilization showing on Call Manager Publisher node.&lt;/p&gt;
-&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h2&gt;
-&lt;h3 id=&#34;cucm-cli&#34;&gt;CUCM CLI&lt;/h3&gt;
-&lt;p&gt;Issue the command &lt;code&gt;show process load&lt;/code&gt; on the publisher node:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;admin:show process load
-top - 10:30:14 up 179 days, 12:13,  1 user,  load average: 6.83, 6.28, 5.77
-Tasks: 264 total,   1 running, 262 sleeping,   0 stopped,   1 zombie
-Cpu(s): 25.4%us,  5.4%sy,  0.0%ni, 68.9%id,  0.1%wa,  0.1%hi,  0.2%si,  0.0%st
-Mem:   5994000k total,  5841020k used,   152980k free,   266876k buffers
-Swap:  2064284k total,  1330460k used,   733824k free,   803676k cached
-  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
-27044 ccmservi  20   0  908m 530m 7020 S 173.6  9.1  11387:53 carschlr
- 2142 administ  30  10 1345m  72m  15m S  3.3  1.2   0:05.62 java
- 6657 ccmservi  20   0  391m  41m  22m S  3.3  0.7   6054:03 RisDC
-  843 root      20   0  4060  556  504 S  1.6  0.0  67:46.09 rngd
- 7141 ccmbase   20   0  530m 196m  29m S  1.6  3.4   4861:31 ccm
-10208 servmgr   20   0 99.2m 7964 2468 S  1.6  0.1 197:58.06 servM
-10867 ccmservi  20   0  797m  88m 6152 S  1.6  1.5 238:16.42 BPS
-    1 root      20   0 19592 1572 1076 S  0.0  0.0  27:29.75 init
-    2 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthreadd
-    3 root      RT   0     0    0    0 S  0.0  0.0  10:50.02 migration/0
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The process above, &lt;em&gt;carschlr&lt;/em&gt;, with PID 27044 shows a high CPU percentage. The command &lt;code&gt;show process using-most cpu&lt;/code&gt; also confirmed the PID above was causing an issue.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Memory Leak in Directory Sync Code</title>
-      <link>https://hhgarland.me/posts/2024-03-28-memory-leak/</link>
-      <pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2024-03-28-memory-leak/</guid>
-      
-      <description>&lt;p&gt;When making a configuration change to a SIP trunk in CUCM, I was met with the following error: &lt;em&gt;Update failed. Memory allocation failed during query processing.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Troubleshooting steps:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;From the CUCM publisher node issue the &lt;code&gt;show status&lt;/code&gt; command to check the memory totals.&lt;/li&gt;
-&lt;li&gt;Also check the service list using &lt;code&gt;utils service list&lt;/code&gt; to verify if the &lt;em&gt;A Cisco DB&lt;/em&gt; service is started.&lt;/li&gt;
-&lt;li&gt;Restart the &lt;em&gt;A Cisco DB&lt;/em&gt; service with &lt;code&gt;utils service restart A Cisco DB&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;After the service has restarted, try saving the configuration again for the SIP trunk.&lt;/li&gt;
-&lt;/ol&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Moving to a new domain</title>
-      <link>https://hhgarland.me/posts/2024-03-18-new-site/</link>
-      <pubDate>Mon, 18 Mar 2024 06:11:54 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2024-03-18-new-site/</guid>
-      
-      <description>&lt;p&gt;I&amp;rsquo;ve moved my site from &lt;a href=&#34;https://hhgarland.gitlab.io&#34;&gt;Gitlab&lt;/a&gt; to a new &lt;a href=&#34;https://hhgarland.me&#34;&gt;domain&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The code can be viewed &lt;a href=&#34;https://github.com/hhgarland/hhgarland.me&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>CUBE Reconfiguration</title>
-      <link>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</link>
-      <pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</guid>
-      
-      <description>&lt;p&gt;I was inspired to simplify my CUBE configuration after reading &lt;a href=&#34;https://learningnetwork.cisco.com/s/article/CUBE-Simplicity&#34;&gt;this&lt;/a&gt; article on the Cisco Learning website. The &lt;em&gt;voice service voip&lt;/em&gt; section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;SIP URI definitions&lt;/li&gt;
-&lt;li&gt;E.164 pattern maps&lt;/li&gt;
-&lt;li&gt;Dial peer groups&lt;/li&gt;
-&lt;li&gt;Server groups&lt;/li&gt;
-&lt;li&gt;Translation profiles&lt;/li&gt;
-&lt;li&gt;Dial peers&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;defining-the-sip-uris&#34;&gt;Defining the SIP URIs&lt;/h3&gt;
-&lt;p&gt;For the inbound WAN and LAN dial peers, I wanted to match on the &lt;em&gt;incoming uri via&lt;/em&gt; headers. Let&amp;rsquo;s define them here for both the ITSP and CCM:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Packet Capture on Cisco ISR</title>
-      <link>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</link>
-      <pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</guid>
-      
-      <description>&lt;ol&gt;
-&lt;li&gt;Determine the interface where you want to capture traffic:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;show ip interface brief
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Stage the capture filters:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 interface gig0/0/0 both
-monitor capture CAP1 match ipv4 any any
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Start the capture:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 start
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Reproduce the issue.&lt;/li&gt;
-&lt;li&gt;Stop the capture:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 stop
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Export the capture to a TFTP server:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Disable the monitor capture:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;no monitor capture CAP1
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;8&#34;&gt;
-&lt;li&gt;Verify the capture:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router1#sh monitor capture CAP1 buffer brief
- ----------------------------------------------------------------------------
- #   size   timestamp     source             destination      dscp    protocol
- ----------------------------------------------------------------------------
-   0  118    0.000000   10.113.20.7      -&amp;gt;  10.114.1.10      0  BE   UDP
-   1  543    0.261980   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP
-   2  520    0.310989   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP
-   3  792    6.020003   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP
-   4 1128    6.022994   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP
-   5  118   10.131997   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
-   6  118   10.133996   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP
-   7   54   10.182989   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
-   8  118   10.211995   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
-   9  118   10.214985   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP
-  10   54   10.261980   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
-  11  118   10.342029   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP
-  &amp;lt;cont&amp;#39;d...&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Using SIP Profiles on Cisco VoIP Gateways</title>
-      <link>https://hhgarland.me/posts/2023-07-21-sip-profiles/</link>
-      <pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2023-07-21-sip-profiles/</guid>
-      
-      <description>&lt;h3 id=&#34;the-problem&#34;&gt;The problem&lt;/h3&gt;
-&lt;p&gt;I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.&lt;/p&gt;
-&lt;p&gt;The call flow looks like this:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;issue-with-the-sip-invite&#34;&gt;Issue with the SIP INVITE&lt;/h3&gt;
-&lt;p&gt;Upon further inspection I found that the initial INVITE was being rejected by the carrier:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>&#39;Failed type 6 encryption on password&#39;</title>
-      <link>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</link>
-      <pubDate>Sat, 17 Jun 2023 06:44:59 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</guid>
-      
-      <description>&lt;p&gt;I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com
-Failed type 6 encryption on password
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had never seen the error &lt;em&gt;Failed type 6 encryption on password&lt;/em&gt; before and I struggled somewhat in understanding how to change this. I ran into &lt;a href=&#34;https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495&#34;&gt;this&lt;/a&gt; article and it was subsequently the same solution I was given by Cisco TAC:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Handy SQL Queries for Cisco UC</title>
-      <link>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</link>
-      <pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</guid>
-      
-      <description>&lt;p&gt;I&amp;rsquo;ve listed below a forever growing list of handy SQL queries that I&amp;rsquo;ve found useful.&lt;/p&gt;
-&lt;h3 id=&#34;cucm&#34;&gt;CUCM&lt;/h3&gt;
-&lt;p&gt;Gather phone information on a specific node:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;risdb&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;phone&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Find a specific speed dial number. The device name, description, speed dial index, label, and number are listed:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialindex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialnumber&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddial&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;inner&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fkdevice&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pkid&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;where&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialnumber&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;like&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;655%&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View call forwarding status on all line appearances:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://hhgarland.me/pages/about/</link>
-      <pubDate>Sun, 28 May 2023 09:31:10 -0500</pubDate>
-      
-      <guid>https://hhgarland.me/pages/about/</guid>
-      
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
-&lt;p&gt;Hello and welcome to my blog. I&amp;rsquo;ve been working in the information technology industry for over 15 years, specializing in Unified Communications, networking, and Linux topics. This is somewhat of a knowledge base for my myself, but I hope others find this site useful. I can&amp;rsquo;t take much credit for the information here as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..&lt;/p&gt;
-&lt;p&gt;A few other blogs I follow:&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Layer 8 Logs</title>
+		<link>https://hhgarland.me/</link>
+		<description>Recent content on Layer 8 Logs</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hhgarland.me/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Uses</title>
+				<link>https://hhgarland.me/pages/uses/</link>
+				<pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>https://hhgarland.me/pages/uses/</guid>
+				<description>&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;&#xA;&lt;p&gt;Everything here in incredibly old:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Motherboard: Gigabyte Z97-HD3&lt;/li&gt;&#xA;&lt;li&gt;CPU: Intel Core i5-4440&lt;/li&gt;&#xA;&lt;li&gt;GPU 1: Intel Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller&lt;/li&gt;&#xA;&lt;li&gt;GPU 2: AMD Radeon RX 460 Graphics&lt;/li&gt;&#xA;&lt;li&gt;Memory: 16 GiB&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;software-wayland&#34;&gt;Software (Wayland)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Window manager: &lt;a href=&#34;https://hyprland.org&#34;&gt;hyprland&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/sway&#34;&gt;sway&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Application launcher: &lt;a href=&#34;https://codeberg.org/dnkl/fuzzel&#34;&gt;fuzzel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Editor: &lt;a href=&#34;https://neovim.io/&#34;&gt;neovim&lt;/a&gt;, particularly &lt;a href=&#34;https://www.lazyvim.org&#34;&gt;LazyVim&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;File manager: &lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Idle daemon: &lt;a href=&#34;https://github.com/hyprwm/hypridle&#34;&gt;hypridle&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/swayidle&#34;&gt;swayidle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Image viewer: &lt;a href=&#34;https://sr.ht/~exec64/imv/&#34;&gt;imv&lt;/a&gt; and &lt;a href=&#34;https://github.com/artemsen/swayimg&#34;&gt;swayimg&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Lock screen: &lt;a href=&#34;https://github.com/hyprwm/hyprlock&#34;&gt;hyprlock&lt;/a&gt; or &lt;a href=&#34;https://github.com/swaywm/swaylock&#34;&gt;swaylock&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Music player: &lt;a href=&#34;https://github.com/MusicPlayerDaemon/MPD&#34;&gt;mpd&lt;/a&gt; and &lt;a href=&#34;https://mierak.github.io/rmpc/&#34;&gt;rmpc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Notifications: &lt;a href=&#34;https://github.com/emersion/mako&#34;&gt;mako&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;PDF reader: &lt;a href=&#34;https://github.com/pwmt/zathura&#34;&gt;zathura&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Shell: &lt;a href=&#34;https://www.zsh.org&#34;&gt;zsh&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Status bar: &lt;a href=&#34;https://github.com/Alexays/Waybar&#34;&gt;waybar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Terminal emulator: &lt;a href=&#34;https://github.com/ghostty-org/ghostty&#34;&gt;ghostty&lt;/a&gt; or &lt;a href=&#34;https://github.com/kovidgoyal/kitty&#34;&gt;kitty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Video player: &lt;a href=&#34;https://github.com/mpv-player/mpv&#34;&gt;mpv&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Web browser: &lt;a href=&#34;https://zen-browser.app/&#34;&gt;zen browser&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;software-x11&#34;&gt;Software (X11)&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&#xA;I&amp;rsquo;m no longer using the X11 setup below as I&amp;rsquo;ve moved solely to Wayland (for now).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CAR Scheduler High CPU Utilization</title>
+				<link>https://hhgarland.me/posts/2025-04-01-car-scheduler-high-cpu/</link>
+				<pubDate>Tue, 01 Apr 2025 20:26:12 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2025-04-01-car-scheduler-high-cpu/</guid>
+				<description>&lt;h2 id=&#34;issue&#34;&gt;Issue&lt;/h2&gt;&#xA;&lt;p&gt;High CPU utilization showing on Call Manager Publisher node.&lt;/p&gt;&#xA;&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cucm-cli&#34;&gt;CUCM CLI&lt;/h3&gt;&#xA;&lt;p&gt;Issue the command &lt;code&gt;show process load&lt;/code&gt; on the publisher node:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;admin:show process load&#xA;top - 10:30:14 up 179 days, 12:13,  1 user,  load average: 6.83, 6.28, 5.77&#xA;Tasks: 264 total,   1 running, 262 sleeping,   0 stopped,   1 zombie&#xA;Cpu(s): 25.4%us,  5.4%sy,  0.0%ni, 68.9%id,  0.1%wa,  0.1%hi,  0.2%si,  0.0%st&#xA;Mem:   5994000k total,  5841020k used,   152980k free,   266876k buffers&#xA;Swap:  2064284k total,  1330460k used,   733824k free,   803676k cached&#xA;  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND&#xA;27044 ccmservi  20   0  908m 530m 7020 S 173.6  9.1  11387:53 carschlr&#xA; 2142 administ  30  10 1345m  72m  15m S  3.3  1.2   0:05.62 java&#xA; 6657 ccmservi  20   0  391m  41m  22m S  3.3  0.7   6054:03 RisDC&#xA;  843 root      20   0  4060  556  504 S  1.6  0.0  67:46.09 rngd&#xA; 7141 ccmbase   20   0  530m 196m  29m S  1.6  3.4   4861:31 ccm&#xA;10208 servmgr   20   0 99.2m 7964 2468 S  1.6  0.1 197:58.06 servM&#xA;10867 ccmservi  20   0  797m  88m 6152 S  1.6  1.5 238:16.42 BPS&#xA;    1 root      20   0 19592 1572 1076 S  0.0  0.0  27:29.75 init&#xA;    2 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthreadd&#xA;    3 root      RT   0     0    0    0 S  0.0  0.0  10:50.02 migration/0&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The process above, &lt;em&gt;carschlr&lt;/em&gt;, with PID 27044 shows a high CPU percentage. The command &lt;code&gt;show process using-most cpu&lt;/code&gt; also confirmed the PID above was causing an issue.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Memory Leak in Directory Sync Code</title>
+				<link>https://hhgarland.me/posts/2024-03-28-memory-leak/</link>
+				<pubDate>Thu, 28 Mar 2024 05:37:05 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2024-03-28-memory-leak/</guid>
+				<description>&lt;p&gt;When making a configuration change to a SIP trunk in CUCM, I was met with the following error: &lt;em&gt;Update failed. Memory allocation failed during query processing.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Troubleshooting steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;From the CUCM publisher node issue the &lt;code&gt;show status&lt;/code&gt; command to check the memory totals.&lt;/li&gt;&#xA;&lt;li&gt;Also check the service list using &lt;code&gt;utils service list&lt;/code&gt; to verify if the &lt;em&gt;A Cisco DB&lt;/em&gt; service is started.&lt;/li&gt;&#xA;&lt;li&gt;Restart the &lt;em&gt;A Cisco DB&lt;/em&gt; service with &lt;code&gt;utils service restart A Cisco DB&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;After the service has restarted, try saving the configuration again for the SIP trunk.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Moving to a new domain</title>
+				<link>https://hhgarland.me/posts/2024-03-18-new-site/</link>
+				<pubDate>Mon, 18 Mar 2024 06:11:54 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2024-03-18-new-site/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve moved my site from &lt;a href=&#34;https://hhgarland.gitlab.io&#34;&gt;Gitlab&lt;/a&gt; to a new &lt;a href=&#34;https://hhgarland.me&#34;&gt;domain&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The code can be viewed &lt;a href=&#34;https://github.com/hhgarland/hhgarland.me&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CUBE Reconfiguration</title>
+				<link>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</link>
+				<pubDate>Thu, 04 Jan 2024 20:34:59 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2024-01-04-cube-reconfiguration/</guid>
+				<description>&lt;p&gt;I was inspired to simplify my CUBE configuration after reading &lt;a href=&#34;https://learningnetwork.cisco.com/s/article/CUBE-Simplicity&#34;&gt;this&lt;/a&gt; article on the Cisco Learning website. The &lt;em&gt;voice service voip&lt;/em&gt; section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;SIP URI definitions&lt;/li&gt;&#xA;&lt;li&gt;E.164 pattern maps&lt;/li&gt;&#xA;&lt;li&gt;Dial peer groups&lt;/li&gt;&#xA;&lt;li&gt;Server groups&lt;/li&gt;&#xA;&lt;li&gt;Translation profiles&lt;/li&gt;&#xA;&lt;li&gt;Dial peers&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;defining-the-sip-uris&#34;&gt;Defining the SIP URIs&lt;/h3&gt;&#xA;&lt;p&gt;For the inbound WAN and LAN dial peers, I wanted to match on the &lt;em&gt;incoming uri via&lt;/em&gt; headers. Let&amp;rsquo;s define them here for both the ITSP and CCM:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Packet Capture on Cisco ISR</title>
+				<link>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</link>
+				<pubDate>Wed, 26 Jul 2023 09:02:59 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2023-07-26-isr-packet-capture/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;Determine the interface where you want to capture traffic:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;show ip interface brief&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Stage the capture filters:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 interface gig0/0/0 both&#xA;monitor capture CAP1 match ipv4 any any&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Start the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 start&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Reproduce the issue.&lt;/li&gt;&#xA;&lt;li&gt;Stop the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 stop&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Export the capture to a TFTP server:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;monitor capture CAP1 export tftp://&amp;lt;tftp IP&amp;gt;/CAP1.pcap&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Disable the monitor capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;no monitor capture CAP1&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;Verify the capture:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router1#sh monitor capture CAP1 buffer brief&#xA; ----------------------------------------------------------------------------&#xA; #   size   timestamp     source             destination      dscp    protocol&#xA; ----------------------------------------------------------------------------&#xA;   0  118    0.000000   10.113.20.7      -&amp;gt;  10.114.1.10      0  BE   UDP&#xA;   1  543    0.261980   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   2  520    0.310989   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   3  792    6.020003   162.223.86.235   -&amp;gt;  10.113.20.7      24 CS3  UDP&#xA;   4 1128    6.022994   10.113.20.7      -&amp;gt;  162.223.86.235   26 AF31 UDP&#xA;   5  118   10.131997   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   6  118   10.133996   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;   7   54   10.182989   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   8  118   10.211995   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;   9  118   10.214985   10.113.20.7      -&amp;gt;  10.148.202.2     48 CS6  TCP&#xA;  10   54   10.261980   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  11  118   10.342029   10.148.202.2     -&amp;gt;  10.113.20.7      0  BE   TCP&#xA;  &amp;lt;cont&amp;#39;d...&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Using SIP Profiles on Cisco VoIP Gateways</title>
+				<link>https://hhgarland.me/posts/2023-07-21-sip-profiles/</link>
+				<pubDate>Fri, 21 Jul 2023 18:15:59 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2023-07-21-sip-profiles/</guid>
+				<description>&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;&#xA;&lt;p&gt;I stumbled upon an issue with outbound calls failing that were being made from&#xA;a Sangoma analog gateway with FreePBX being used as a SIP proxy between the&#xA;endpoint and the PSTN gateway.&lt;/p&gt;&#xA;&lt;p&gt;The call flow looks like this:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Sangoma Analog Gateway &amp;lt;-----&amp;gt; 2. FreePBX &amp;lt;-----&amp;gt; 3. Cisco Gateway &amp;lt;-----&amp;gt; 4. PSTN&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;issue-with-the-sip-invite&#34;&gt;Issue with the SIP INVITE&lt;/h2&gt;&#xA;&lt;p&gt;Upon further inspection I found that the initial INVITE was being rejected by&#xA;the carrier:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>&#39;Failed type 6 encryption on password&#39;</title>
+				<link>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</link>
+				<pubDate>Sat, 17 Jun 2023 06:44:59 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2023-06-16-failed-type-6-encryption/</guid>
+				<description>&lt;p&gt;I ran into an issue recently when attempting to change the password on an previously configured SIP binding (information has been changed for security reasons):&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;site-1-cube(config-sip-ua)#credentials username 3334445555 password 0 J2[%)_Ie realm nyc.provider.com&#xA;Failed type 6 encryption on password&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had never seen the error &lt;em&gt;Failed type 6 encryption on password&lt;/em&gt; before and I struggled somewhat in understanding how to change this. I ran into &lt;a href=&#34;https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495&#34;&gt;this&lt;/a&gt; article and it was subsequently the same solution I was given by Cisco TAC:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Handy SQL Queries for Cisco UC</title>
+				<link>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</link>
+				<pubDate>Sun, 28 May 2023 09:49:28 -0500</pubDate>
+				<guid>https://hhgarland.me/posts/2023-05-28-handy-sql-queries/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve listed below a forever growing list of handy SQL queries that I&amp;rsquo;ve found useful.&lt;/p&gt;&#xA;&lt;h3 id=&#34;cucm&#34;&gt;CUCM&lt;/h3&gt;&#xA;&lt;p&gt;Gather phone information on a specific node:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;risdb&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;phone&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Find a specific speed dial number. The device name, description, speed dial index, label, and number are listed:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialindex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialnumber&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddial&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;inner&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fkdevice&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pkid&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;where&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;speeddialnumber&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;like&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;655%&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View call forwarding status on all line appearances:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About</title>
+				<link>https://hhgarland.me/pages/about/</link>
+				<pubDate>Sun, 28 May 2023 09:31:10 -0500</pubDate>
+				<guid>https://hhgarland.me/pages/about/</guid>
+				<description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;p&gt;Hello and welcome to my blog. I&amp;rsquo;ve been working in the information technology&#xA;industry since 2008, specializing in Unified Communications, networking, and&#xA;Linux topics. This is somewhat of a knowledge base for my myself, but I hope&#xA;others find this site useful. I can&amp;rsquo;t take much credit for the information here&#xA;as it&amp;rsquo;s been cobbled together from other sites, blogs, discussion posts, etc..&lt;/p&gt;&#xA;&lt;p&gt;A few other blogs I follow:&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
