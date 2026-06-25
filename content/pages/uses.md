@@ -6,7 +6,7 @@ date: 2025-04-03
 
 ## Hardware
 
-Everything here in incredibly old:
+Everything here is incredibly old:
 
 - Motherboard: Gigabyte Z97-HD3
 - CPU: Intel Core i5-4440
@@ -15,6 +15,10 @@ Everything here in incredibly old:
 - Memory: 16 GiB
 
 ## Software (Wayland)
+
+> **Note:**
+> I've gotten lazy... I'm getting too old to tinker around too much.
+> I'm mostly using Gnome as my desktop environment now.
 
 - Window manager: [hyprland](https://hyprland.org) or [sway](https://github.com/swaywm/sway)
 - Application launcher: [fuzzel](https://codeberg.org/dnkl/fuzzel)
