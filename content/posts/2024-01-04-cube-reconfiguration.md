@@ -5,7 +5,10 @@ tags: ['cube','sip','ios']
 description: "Simplifying a CUBE Configuration"
 ---
 
-I was inspired to simplify my CUBE configuration after reading [this](https://learningnetwork.cisco.com/s/article/CUBE-Simplicity) article on the Cisco Learning website. The *voice service voip* section of the configuration was already in pretty good shape; however, the folliwing areas needed some work:
+I was inspired to simplify my CUBE configuration after reading [this](https://learningnetwork.cisco.com/s/article/CUBE-Simplicity)
+article on the Cisco Learning website. The *voice service voip* section of the
+configuration was already in pretty good shape; however, the following areas
+needed some work:
 
 1. SIP URI definitions
 2. E.164 pattern maps
@@ -14,10 +17,12 @@ I was inspired to simplify my CUBE configuration after reading [this](https://le
 5. Translation profiles
 6. Dial peers
 
-### Defining the SIP URIs
+## Defining the SIP URIs
 
-For the inbound WAN and LAN dial peers, I wanted to match on the *incoming uri via* headers. Let's define them here for both the ITSP and CCM:
-```
+For the inbound WAN and LAN dial peers, I wanted to match on the *incoming uri via*
+headers. Let's define them here for both the ITSP and CCM:
+
+```plaintext
 voice class uri ITSP sip 
  host ipv4:162.223.86.245 
  host ipv4:162.223.83.245 
@@ -29,13 +34,21 @@ voice class uri CCM sip
  host ipv4:192.168.70.50 
 ```
 
-### E.164 Pattern Maps
+## E.164 Pattern Maps
 
-The voice class e164-pattern-map 200 will match on any destination that includes one of the organization's DIDN. A single e164 entry of %.T would technically cover the incoming DIDNs; however, I wanted to list them in NPANXX…. to provide documentation of the actual DIDNs. 
+The voice class e164-pattern-map 200 will match on any destination that includes
+one of the organization's DIDN. A single e164 entry of %.T would technically
+cover the incoming DIDNs; however, I wanted to list them in NPANXX…. to
+provide documentation of the actual DIDNs.
 
-The voice class e164-pattern-map 400 will match on any patterns dialed from a CCM endpoint. The voice translation rules and profile, *Normalize-To-ITSP*, will take care of the outbound emergency, local, long-distance, and international destination patterns. The route patterns themselves could also be referenced in the pattern map but using translation rules provides an easier way to manipulate the number(s) at the gateway level if needed. 
+The voice class e164-pattern-map 400 will match on any patterns dialed from a
+CCM endpoint. The voice translation rules and profile, *Normalize-To-ITSP*, will
+take care of the outbound emergency, local, long-distance, and international
+destination patterns. The route patterns themselves could also be referenced in
+the pattern map but using translation rules provides an easier way to manipulate
+the number(s) at the gateway level if needed.
 
-```
+```plaintext
 voice class e164-pattern-map 200 
  description ** DIDNs sent to CCM; CCM SIP trunk matching on last 4 ** 
   e164 333539.... 
@@ -49,11 +62,14 @@ voice class e164-pattern-map 400
  description ** Route patterns to ITSP ** 
   e164 .T 
 ```
-### Dial Peer groups
 
-Dial peer groups provide myself a way to prevent looping calls back to ITSP provider. Dial peers are excluded as the dial-peer groups create a static binding to their respective destinations: 
+## Dial Peer groups
 
-```
+Dial peer groups provide myself a way to prevent looping calls back to ITSP
+provider. Dial peers are excluded as the dial-peer groups create a static
+binding to their respective destinations:
+
+```plaintext
 voice class dpg 201 
  description ** Inbound WAN DPG to dial-peer 200 ** 
  dial-peer 200 
@@ -62,8 +78,10 @@ voice class dpg 401
  description ** Inbound LAN DPG to dial-peer 400 ** 
  dial-peer 400 
 ```
-### Server Groups
-```
+
+## Server Groups
+
+```plaintext
 voice class server-group 200 
  ipv4 10.113.20.20 preference 1
  ipv4 10.113.20.30 preference 2
@@ -79,13 +97,17 @@ voice class server-group 400
 
 We can point to multiple ITSP targets with server groups.
 
-### Translation Rules and Profiles
+## Translation Rules and Profiles
 
-The translation profile below is applied to dial peer voice 400. The called number is altered on the outgoing/destination dial peer. The destination must match how it was originally received on the incoming dial peer. 
+The translation profile below is applied to dial peer voice 400. The called number
+is altered on the outgoing/destination dial peer. The destination must match how
+it was originally received on the incoming dial peer.
 
-Rules 1 and 2 are used for emergency calls. Rules 3 and 4 are used for local 7-digit and 10-digit calls. Rule 5 is used for long-distance 11-digit calls. Rule 6 is used for international calls. 
+Rules 1 and 2 are used for emergency calls. Rules 3 and 4 are used for local
+7-digit and 10-digit calls. Rule 5 is used for long-distance 11-digit calls.
+Rule 6 is used for international calls.
 
-```
+```plaintext
 voice translation-rule 400 
  rule 1 /^911$/ /\0/ 
  rule 2 /^988$/ /\0/ 
@@ -97,9 +119,10 @@ voice translation-rule 400
 voice translation-profile Normalize-To-ITSP 
  translate called 400
 ```
-### Dial Peers
 
-```
+## Dial Peers
+
+```plaintext
 dial-peer voice 100 voip 
  description ** Inbound WAN dial-peer from ITSP to CUBE ** 
  session protocol sipv2 
@@ -149,5 +172,7 @@ dial-peer voice 400 voip
  dtmf-relay cisco-rtp rtp-nte 
  no vad
 ```
-Of course this could be accomplished by using just two dial peers, but using four dial peers gives me a better understanding of the inbound/outbound call flow when debugging.
 
+Of course this could be accomplished by using just two dial peers, but using
+four dial peers gives me a better understanding of the inbound/outbound call
+flow when debugging.
