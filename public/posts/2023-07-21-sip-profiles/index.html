@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us"><head><meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,8 +15,8 @@
 <meta property="og:description" content="Manipulating SIP headers on Cisco VoIP Gateways" />
 <meta name="twitter:description" content="Manipulating SIP headers on Cisco VoIP Gateways" />
 
-<meta property="og:locale" content="en-us" />
-<meta name="language" content="en-us" />
+<meta property="og:locale" content="en" />
+<meta name="language" content="en" />
 
   <link rel="alternate" hreflang="en" href="https://hhgarland.me/posts/2023-07-21-sip-profiles/" title="" />
 
@@ -42,22 +42,22 @@
 
     
 
-    <script defer type="application/ld+json">
+    <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Using SIP Profiles on Cisco VoIP Gateways",
         "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Hayden G"
         },
         "datePublished": "2023-07-21",
         "description": "Manipulating SIP headers on Cisco VoIP Gateways",
         "wordCount":  435 ,
-        "mainEntityOfPage": "True",
+        "mainEntityOfPage": "https://hhgarland.me/posts/2023-07-21-sip-profiles/",
         "dateModified": "2023-07-21",
         "image": {
-        "@type": "imageObject",
+        "@type": "ImageObject",
         "url": ""
         },
         "publisher": {
@@ -68,29 +68,29 @@
     </script>
 
 
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.162.1">
 
     
     <meta property="og:url" content="https://hhgarland.me/posts/2023-07-21-sip-profiles/">
-  <meta property="og:site_name" content="Layer 8 Logs">
-  <meta property="og:title" content="Using SIP Profiles on Cisco VoIP Gateways">
-  <meta property="og:description" content="Manipulating SIP headers on Cisco VoIP Gateways">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-07-21T18:15:59-05:00">
-    <meta property="article:modified_time" content="2023-07-21T18:15:59-05:00">
-    <meta property="article:tag" content="Cube">
-    <meta property="article:tag" content="Sip">
-    <meta property="article:tag" content="Ios">
-    <meta property="article:tag" content="Freepbx">
+	<meta property="og:site_name" content="Layer 8 Logs">
+	<meta property="og:title" content="Using SIP Profiles on Cisco VoIP Gateways">
+	<meta property="og:description" content="Manipulating SIP headers on Cisco VoIP Gateways">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2023-07-21T18:15:59-05:00">
+		<meta property="article:modified_time" content="2023-07-21T18:15:59-05:00">
+		<meta property="article:tag" content="Cube">
+		<meta property="article:tag" content="Sip">
+		<meta property="article:tag" content="Ios">
+		<meta property="article:tag" content="Freepbx">
 
 
     
     
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Using SIP Profiles on Cisco VoIP Gateways">
-  <meta name="twitter:description" content="Manipulating SIP headers on Cisco VoIP Gateways">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Using SIP Profiles on Cisco VoIP Gateways">
+	<meta name="twitter:description" content="Manipulating SIP headers on Cisco VoIP Gateways">
 
 
     
@@ -114,12 +114,15 @@
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
 
     
     <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
 
     
-    </head>
+    
+    
+</head>
 <body data-theme = "auto" class="notransition">
 
 <script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
@@ -130,7 +133,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
 stroke-linejoin="round" class="feather feather-home">
-<title>Home</title>
+<title></title>
 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
 <polyline points="9 22 9 12 15 12 15 22"></polyline>
 </svg>
@@ -199,18 +202,21 @@ stroke-linejoin="round" class="feather feather-home">
                 
                 
                 <div class="post-meta">
-                    <time datetime="2023-07-21T18:15:59-05:00" itemprop="datePublished"> Jul 21, 2023 </time>
+                    <time datetime="2023-07-21T18:15:59-05:00" itemprop="datePublished"> 21 Jul 2023 </time>
                 </div>
                 
             </header>
             
             <div class="page-content">
-                <h3 id="the-problem">The problem</h3>
-<p>I stumbled upon an issue with outbound calls failing that were being made from a Sangoma analog gateway with FreePBX being used as a SIP proxy between the endpoint and the PSTN gateway.</p>
+                <h2 id="the-problem">The Problem</h2>
+<p>I stumbled upon an issue with outbound calls failing that were being made from
+a Sangoma analog gateway with FreePBX being used as a SIP proxy between the
+endpoint and the PSTN gateway.</p>
 <p>The call flow looks like this:</p>
 <pre tabindex="0"><code>1. Sangoma Analog Gateway &lt;-----&gt; 2. FreePBX &lt;-----&gt; 3. Cisco Gateway &lt;-----&gt; 4. PSTN
-</code></pre><h3 id="issue-with-the-sip-invite">Issue with the SIP INVITE</h3>
-<p>Upon further inspection I found that the initial INVITE was being rejected by the carrier:</p>
+</code></pre><h2 id="issue-with-the-sip-invite">Issue with the SIP INVITE</h2>
+<p>Upon further inspection I found that the initial INVITE was being rejected by
+the carrier:</p>
 <pre tabindex="0"><code>INVITE sip:13334445567@10.128.20.3 SIP/2.0
 Via: SIP/2.0/UDP 10.112.20.12:5060;branch=z9hG4bK28cf9e37
 Max-Forwards: 70
@@ -237,16 +243,20 @@ a=fmtp:101 0-16
 a=ptime:20
 a=maxptime:150
 a=sendrecv
-</code></pre><p>In the INVITE above, the From and Contact fields with &ldquo;Unknown&rdquo; listed were causing the issue:</p>
+</code></pre><p>In the INVITE above, the From and Contact fields with &ldquo;Unknown&rdquo; listed were
+causing the issue:</p>
 <pre tabindex="0"><code>From: &#34;vega&#34; &lt;sip:Unknown@10.112.20.12&gt;;tag=as1f8a8d71
 ...
 Contact: &lt;sip:Unknown@10.112.20.12:5060&gt;
-</code></pre><h3 id="creating-and-applying-a-sip-profile">Creating and applying a SIP profile</h3>
-<p>Since I don&rsquo;t know much about the Sangoma analog gateway and how to set the CLID for an endpoint, I knew that the quickest method to correct this would be to apply a SIP profile to the outbound dial-peer that would the change the From and Contact fields:</p>
+</code></pre><h2 id="creating-and-applying-a-sip-profile">Creating and applying a SIP profile</h2>
+<p>Since I don&rsquo;t know much about the Sangoma analog gateway and how to set the CLID
+for an endpoint, I knew that the quickest method to correct this would be to
+apply a SIP profile to the outbound dial-peer that would the change the From and
+Contact fields:</p>
 <pre tabindex="0"><code>Router(config)# voice class sip-profiles 20
 Router(config-class)# request INVITE sip-header From modify &#34;(&lt;.*:)(Unknown)&#34; &#34;\13334447009&#34;
 Router(config-class)# request INVITE sip-header Contact modify &#34;(&lt;.*:)(Unknown)&#34; &#34;\13334447009&#34;
-</code></pre><p>Apply the sip profile to the appropriate dial-peer:</p>
+</code></pre><p>Apply the SIP profile to the appropriate dial-peer:</p>
 <pre tabindex="0"><code>Router(config)# dial-peer voice 100 voip
 Router(config-dial-peer)# voice-class sip profile 20 
 </code></pre><p>Here&rsquo;s the subsequent INVITE from the egress interface towards the carrier:</p>
@@ -284,10 +294,12 @@ a=rtpmap:101 telephone-event/8000
 a=fmtp:101 0-16
 a=rtpmap:19 CN/8000
 a=ptime:20
-</code></pre><p>As you can see above, the From and Contact headers have been modified to show a legitimate number.</p>
-<h3 id="update">Update</h3>
-<p>Rebuilding the configuration between the Sangoma gateway and FreePBX seemed to do the trick with regards to setting the
-caller ID. I installed the <em>Vega Gateway Module</em> on the FreePBX server and setup each analog line as its own
+</code></pre><p>As you can see above, the From and Contact headers have been modified to show a
+legitimate number.</p>
+<h2 id="update">Update</h2>
+<p>Rebuilding the configuration between the Sangoma gateway and FreePBX seemed to
+do the trick with regards to setting the caller ID. I installed the <em>Vega Gateway
+Module</em> on the FreePBX server and setup each analog line as its own
 SIP user/extension.</p>
 
             </div>
@@ -319,9 +331,9 @@ SIP user/extension.</p>
 </div>
     <small class="footer_copyright">
         © 2026 Hayden G.
-        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+        
     </small>
-</footer><a href="#" title="Go to top" id="totop">
+</footer><a href="#" title="" id="totop">
     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
     <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
 </svg>

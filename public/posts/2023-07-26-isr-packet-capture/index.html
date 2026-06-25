@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us"><head><meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,8 +15,8 @@
 <meta property="og:description" content="Notes and insights on networking, Linux, Unified Communications, and other systems that keep things connected—plus a bit of fitness." />
 <meta name="twitter:description" content="Notes and insights on networking, Linux, Unified Communications, and other systems that keep things connected—plus a bit of fitness." />
 
-<meta property="og:locale" content="en-us" />
-<meta name="language" content="en-us" />
+<meta property="og:locale" content="en" />
+<meta name="language" content="en" />
 
   <link rel="alternate" hreflang="en" href="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/" title="" />
 
@@ -42,22 +42,22 @@
 
     
 
-    <script defer type="application/ld+json">
+    <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Packet Capture on Cisco ISR",
         "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Hayden G"
         },
         "datePublished": "2023-07-26",
         "description": "",
         "wordCount":  195 ,
-        "mainEntityOfPage": "True",
+        "mainEntityOfPage": "https://hhgarland.me/posts/2023-07-26-isr-packet-capture/",
         "dateModified": "2023-07-26",
         "image": {
-        "@type": "imageObject",
+        "@type": "ImageObject",
         "url": ""
         },
         "publisher": {
@@ -68,28 +68,28 @@
     </script>
 
 
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.162.1">
 
     
     <meta property="og:url" content="https://hhgarland.me/posts/2023-07-26-isr-packet-capture/">
-  <meta property="og:site_name" content="Layer 8 Logs">
-  <meta property="og:title" content="Packet Capture on Cisco ISR">
-  <meta property="og:description" content="Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&lt;tftp IP&gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.000000 10.113.20.7 -&gt; 10.114.1.10 0 BE UDP 1 543 0.261980 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 2 520 0.310989 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 3 792 6.020003 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 4 1128 6.022994 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 5 118 10.131997 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 6 118 10.133996 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 7 54 10.182989 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 8 118 10.211995 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 9 118 10.214985 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 10 54 10.261980 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 11 118 10.342029 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP &lt;cont&#39;d...&gt;">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-07-26T09:02:59-05:00">
-    <meta property="article:modified_time" content="2023-07-26T09:02:59-05:00">
-    <meta property="article:tag" content="Cube">
-    <meta property="article:tag" content="Isr">
-    <meta property="article:tag" content="Ios">
+	<meta property="og:site_name" content="Layer 8 Logs">
+	<meta property="og:title" content="Packet Capture on Cisco ISR">
+	<meta property="og:description" content="Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&lt;tftp IP&gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.000000 10.113.20.7 -&gt; 10.114.1.10 0 BE UDP 1 543 0.261980 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 2 520 0.310989 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 3 792 6.020003 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 4 1128 6.022994 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 5 118 10.131997 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 6 118 10.133996 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 7 54 10.182989 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 8 118 10.211995 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 9 118 10.214985 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 10 54 10.261980 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 11 118 10.342029 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP &lt;cont&#39;d...&gt;">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2023-07-26T09:02:59-05:00">
+		<meta property="article:modified_time" content="2023-07-26T09:02:59-05:00">
+		<meta property="article:tag" content="Cube">
+		<meta property="article:tag" content="Isr">
+		<meta property="article:tag" content="Ios">
 
 
     
     
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Packet Capture on Cisco ISR">
-  <meta name="twitter:description" content="Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&lt;tftp IP&gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.000000 10.113.20.7 -&gt; 10.114.1.10 0 BE UDP 1 543 0.261980 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 2 520 0.310989 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 3 792 6.020003 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 4 1128 6.022994 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 5 118 10.131997 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 6 118 10.133996 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 7 54 10.182989 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 8 118 10.211995 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 9 118 10.214985 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 10 54 10.261980 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 11 118 10.342029 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP &lt;cont&#39;d...&gt;">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Packet Capture on Cisco ISR">
+	<meta name="twitter:description" content="Determine the interface where you want to capture traffic: show ip interface brief Stage the capture filters: monitor capture CAP1 interface gig0/0/0 both monitor capture CAP1 match ipv4 any any Start the capture: monitor capture CAP1 start Reproduce the issue. Stop the capture: monitor capture CAP1 stop Export the capture to a TFTP server: monitor capture CAP1 export tftp://&lt;tftp IP&gt;/CAP1.pcap Disable the monitor capture: no monitor capture CAP1 Verify the capture: router1#sh monitor capture CAP1 buffer brief ---------------------------------------------------------------------------- # size timestamp source destination dscp protocol ---------------------------------------------------------------------------- 0 118 0.000000 10.113.20.7 -&gt; 10.114.1.10 0 BE UDP 1 543 0.261980 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 2 520 0.310989 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 3 792 6.020003 162.223.86.235 -&gt; 10.113.20.7 24 CS3 UDP 4 1128 6.022994 10.113.20.7 -&gt; 162.223.86.235 26 AF31 UDP 5 118 10.131997 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 6 118 10.133996 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 7 54 10.182989 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 8 118 10.211995 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 9 118 10.214985 10.113.20.7 -&gt; 10.148.202.2 48 CS6 TCP 10 54 10.261980 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP 11 118 10.342029 10.148.202.2 -&gt; 10.113.20.7 0 BE TCP &lt;cont&#39;d...&gt;">
 
 
     
@@ -113,12 +113,15 @@
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
 
     
     <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
 
     
-    </head>
+    
+    
+</head>
 <body data-theme = "auto" class="notransition">
 
 <script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
@@ -129,7 +132,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
 stroke-linejoin="round" class="feather feather-home">
-<title>Home</title>
+<title></title>
 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
 <polyline points="9 22 9 12 15 12 15 22"></polyline>
 </svg>
@@ -198,7 +201,7 @@ stroke-linejoin="round" class="feather feather-home">
                 
                 
                 <div class="post-meta">
-                    <time datetime="2023-07-26T09:02:59-05:00" itemprop="datePublished"> Jul 26, 2023 </time>
+                    <time datetime="2023-07-26T09:02:59-05:00" itemprop="datePublished"> 26 Jul 2023 </time>
                 </div>
                 
             </header>
@@ -280,9 +283,9 @@ monitor capture CAP1 match ipv4 any any
 </div>
     <small class="footer_copyright">
         © 2026 Hayden G.
-        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+        
     </small>
-</footer><a href="#" title="Go to top" id="totop">
+</footer><a href="#" title="" id="totop">
     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
     <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
 </svg>

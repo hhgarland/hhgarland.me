@@ -1,6 +1,5 @@
 title = 'Layer 8 Logs'
 baseURL = 'https://hhgarland.me'
-languageCode = 'en-us'
 theme = 'hugo-blog-awesome'
 
 [markup]
